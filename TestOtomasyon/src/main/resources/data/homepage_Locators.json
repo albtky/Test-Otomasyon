@@ -1,0 +1,33 @@
+[
+  {
+    "key": "login_menu_button",
+    "value": "sf-OldMyAccount-d0xCHLV38UCH5cD9mOXq",
+    "type": "cssSelector"
+  },
+  {
+    "key": "login_button_in_menu",
+    "value": "login",
+    "type": "id"
+  },
+  {
+    "key": "user_mail_input_text",
+    "value": "txtUserName",
+    "type": "id"
+  },
+  {
+    "key": "user_password_input_text",
+    "value": "txtPassword",
+    "type": "id"
+  },
+  {
+    "key": "login_btn",
+    "value": "btnLogin",
+    "type": "id"
+  },{
+  "key": "sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR",
+  "value": "login_succes_check_parameter",
+  "type": "cssSelector"
+}
+]
+
+

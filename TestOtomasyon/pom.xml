@@ -13,10 +13,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>4.20.0</selenium.version>
         <gauge.version>0.12.0</gauge.version>
+        <wdm.version>5.9.2</wdm.version>
         <junit.jupiter>5.10.2</junit.jupiter>
          <surefire.version>3.0.0-M7</surefire.version>
     </properties>
     <dependencies>
+        <!-- WebDriverManager: driver binary yönetimi -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${wdm.version}</version>
+            <scope>test</scope>
+        </dependency>
         <!-- Gauge -->
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
@@ -44,6 +52,12 @@
             <version>${webdrivermanager.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20240303</version>
+            <scope>test</scope>
+        </dependency>
         <!-- (Opsiyonel) AssertJ - daha zengin assertion’lar için -->
          <dependency>
             <groupId>org.assertj</groupId>
@@ -51,6 +65,20 @@
             <version>3.27.4</version>
             <scope>test</scope>
         </dependency>
+        <!-- SLF4J Simple (loglar için) -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.13</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
+
 
     </dependencies>
     <build>
@@ -69,7 +97,8 @@
                 </configuration>
             </plugin>
 
-            <!-- Derleyici Java 1.8 -->
+
+            <!-- Derleyici -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>

@@ -1,6 +1,6 @@
 21-08-2025 16:01:44.633 [Gauge] [INFO] Initializing concepts cache with 0 concepts
 21-08-2025 16:01:44.634 [Gauge] [INFO] Initializing specs cache with 1 specs
-21-08-2025 16:01:44.634 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+21-08-2025 16:01:44.634 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\LoginPageTest.spec
 21-08-2025 16:01:44.634 [Gauge] [INFO] Initializing steps cache with 1 steps
 21-08-2025 16:01:44.634 [Gauge] [INFO] Gauge daemon initialized and listening on port: 48204
 21-08-2025 16:01:44.639 [Gauge] [DEBUG] Watching directory: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs
@@ -10,7 +10,7 @@
 21-08-2025 18:50:47.067 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 9544 has terminated.
 22-08-2025 13:52:26.577 [Gauge] [INFO] Initializing concepts cache with 0 concepts
 22-08-2025 13:52:26.596 [Gauge] [INFO] Initializing specs cache with 1 specs
-22-08-2025 13:52:26.596 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+22-08-2025 13:52:26.596 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\LoginPageTest.spec
 22-08-2025 13:52:26.596 [Gauge] [INFO] Initializing steps cache with 1 steps
 22-08-2025 13:52:26.596 [Gauge] [INFO] Gauge daemon initialized and listening on port: 26703
 22-08-2025 13:52:26.598 [Gauge] [DEBUG] Watching directory: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs
@@ -20,10 +20,20 @@
 22-08-2025 15:56:32.248 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 12436 has terminated.
 25-08-2025 09:46:00.759 [Gauge] [INFO] Initializing concepts cache with 0 concepts
 25-08-2025 09:46:01.240 [Gauge] [INFO] Initializing specs cache with 1 specs
-25-08-2025 09:46:01.240 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 09:46:01.240 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\LoginPageTest.spec
 25-08-2025 09:46:01.241 [Gauge] [INFO] Initializing steps cache with 1 steps
 25-08-2025 09:46:01.257 [Gauge] [INFO] Gauge daemon initialized and listening on port: 36306
 25-08-2025 09:46:01.820 [Gauge] [DEBUG] Watching directory: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs
 25-08-2025 09:46:01.821 [Gauge] [DEBUG] Found 1 files
 25-08-2025 09:46:11.300 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Merhaba yazdır"}
 25-08-2025 09:46:11.300 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"}}
+25-08-2025 11:43:47.649 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 2844 has terminated.
+25-08-2025 13:05:17.590 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+25-08-2025 13:05:17.608 [Gauge] [INFO] Initializing specs cache with 1 specs
+25-08-2025 13:05:17.608 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\LoginPageTest.spec
+25-08-2025 13:05:17.608 [Gauge] [INFO] Initializing steps cache with 1 steps
+25-08-2025 13:05:17.609 [Gauge] [INFO] Gauge daemon initialized and listening on port: 39131
+25-08-2025 13:05:17.610 [Gauge] [DEBUG] Watching directory: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs
+25-08-2025 13:05:17.610 [Gauge] [DEBUG] Found 1 files
+25-08-2025 13:05:23.172 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Merhaba yazdır"}
+25-08-2025 13:05:23.173 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"}}
