@@ -32,9 +32,7 @@ public class HelperMethods {
         Thread.sleep(seconds);
     }
 
-    public void checkBasket(int seconds) throws InterruptedException {
-        Thread.sleep(seconds);
-    }
+
 
     public void productCheckInList(By locator_Amount,
                                    By locator_productDetail,
@@ -46,14 +44,6 @@ public class HelperMethods {
         // title'larında aranan (class = xeL9CQ3JILmYoQPCgDcl) isim var mı kontrol et
 
         WebElement productAmount =  driver.findElement(locator_Amount);
-        for (int i = 0; i < ; i++) {
-            
-        }
-        for (int i = 0; i < Integer.parseInt(null); i++) {
 
-        }
     }
-
-
-
 }

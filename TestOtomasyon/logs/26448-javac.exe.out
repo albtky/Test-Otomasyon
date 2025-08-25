@@ -1,0 +1,140 @@
+src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src\main\java\HelperMethods.java:11: error: cannot find symbol
+    WebDriver driver;
+    ^
+  symbol:   class WebDriver
+  location: class HelperMethods
+src\main\java\HelperMethods.java:13: error: cannot find symbol
+    public HelperMethods(WebDriver driver) {
+                         ^
+  symbol:   class WebDriver
+  location: class HelperMethods
+src\main\java\HelperMethods.java:21: error: cannot find symbol
+    public void clickWhenClickable(By locator){
+                                   ^
+  symbol:   class By
+  location: class HelperMethods
+src\main\java\HelperMethods.java:25: error: cannot find symbol
+    public void txtInput(By locator, String text){
+                         ^
+  symbol:   class By
+  location: class HelperMethods
+src\main\java\HelperMethods.java:37: error: cannot find symbol
+    public void productCheckInList(By locator_Amount,
+                                   ^
+  symbol:   class By
+  location: class HelperMethods
+src\main\java\HelperMethods.java:38: error: cannot find symbol
+                                   By locator_productDetail,
+                                   ^
+  symbol:   class By
+  location: class HelperMethods
+src\main\java\HelperMethods.java:39: error: cannot find symbol
+                                   By locator_product_title)
+                                   ^
+  symbol:   class By
+  location: class HelperMethods
+src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.AfterEach;
+                            ^
+src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src\test\java\LoginTests.java:12: error: cannot find symbol
+    WebDriver driver;
+    ^
+  symbol:   class WebDriver
+  location: class LoginTests
+src\test\java\LoginTests.java:13: error: cannot find symbol
+    @BeforeEach
+     ^
+  symbol:   class BeforeEach
+  location: class LoginTests
+src\test\java\LoginTests.java:25: error: cannot find symbol
+    @AfterEach
+     ^
+  symbol:   class AfterEach
+  location: class LoginTests
+src\main\java\HelperMethods.java:22: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+        ^
+  symbol:   class WebDriverWait
+  location: class HelperMethods
+src\main\java\HelperMethods.java:22: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+                                 ^
+  symbol:   class WebDriverWait
+  location: class HelperMethods
+src\main\java\HelperMethods.java:23: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class HelperMethods
+src\main\java\HelperMethods.java:26: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+        ^
+  symbol:   class WebDriverWait
+  location: class HelperMethods
+src\main\java\HelperMethods.java:26: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+                                 ^
+  symbol:   class WebDriverWait
+  location: class HelperMethods
+src\main\java\HelperMethods.java:27: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class HelperMethods
+src\main\java\HelperMethods.java:46: error: cannot find symbol
+        WebElement productAmount =  driver.findElement(locator_Amount);
+        ^
+  symbol:   class WebElement
+  location: class HelperMethods
+src\test\java\LoginTests.java:15: error: cannot find symbol
+        ChromeOptions options = new ChromeOptions();
+        ^
+  symbol:   class ChromeOptions
+  location: class LoginTests
+src\test\java\LoginTests.java:15: error: cannot find symbol
+        ChromeOptions options = new ChromeOptions();
+                                    ^
+  symbol:   class ChromeOptions
+  location: class LoginTests
+src\test\java\LoginTests.java:20: error: cannot find symbol
+        driver = new ChromeDriver(options); // önce driver baþlat
+                     ^
+  symbol:   class ChromeDriver
+  location: class LoginTests
+33 errors

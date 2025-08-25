@@ -1,0 +1,1415 @@
+21-08-2025 14:51:29.023 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 14:51:29.043 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 14:51:29.044 [Gauge] [INFO] Compatible version of plugin html-report not found. Installing plugin html-report...
+21-08-2025 14:51:29.044 [Gauge] [DEBUG] Gathering metadata for html-report
+21-08-2025 14:51:29.046 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=java,js&o=windows&a=amd64
+21-08-2025 14:51:29.503 [Gauge] [DEBUG] Downloading https://github.com/getgauge/html-report/releases/download/v4.3.3/html-report-4.3.3-windows.x86_64.zip
+21-08-2025 14:51:30.989 [Gauge] [DEBUG] Installing plugin html-report 4.3.3
+21-08-2025 14:51:31.398 [Gauge] [INFO] Successfully installed plugin 'html-report' version 4.3.3
+21-08-2025 14:51:31.404 [Gauge] [INFO] Installing required plugins.
+21-08-2025 14:51:31.404 [Gauge] [DEBUG] Installing plugin 'screenshot'
+21-08-2025 14:51:31.404 [Gauge] [DEBUG] Gathering metadata for screenshot
+21-08-2025 14:51:31.406 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js&o=windows&a=amd64
+21-08-2025 14:51:31.505 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.2/screenshot-0.3.2-windows.x86_64.zip
+21-08-2025 14:51:31.962 [Gauge] [DEBUG] Checking updates...
+21-08-2025 14:51:31.963 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js&o=windows&a=amd64
+21-08-2025 14:51:32.011 [Gauge] [DEBUG] Installing plugin screenshot 0.3.2
+21-08-2025 14:51:32.054 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:51:32.186 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:51:32.355 [Gauge] [INFO] Successfully installed plugin 'screenshot' version 0.3.2
+21-08-2025 14:51:32.362 [Gauge] [DEBUG] Parsing started.
+21-08-2025 14:51:32.363 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 14:51:32.370 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 14:51:32.370 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 14:51:32.372 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 14:51:32.373 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 14:51:32.738 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 14:51:32.738 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Users\alper\AppData\Roaming\npm;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 14:51:32.738 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 14:51:32.738 [java] [DEBUG] overwrite_reports: true
+21-08-2025 14:51:32.738 [java] [DEBUG] logs_directory: logs
+21-08-2025 14:51:32.738 [java] [DEBUG] enable_multithreading: false
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 14:51:32.738 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_java_home: 
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 14:51:32.738 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 14:51:32.738 [java] [DEBUG] ***** END *****
+21-08-2025 14:51:33.809 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+21-08-2025 14:51:33.809 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Program%!F(MISSING)iles/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+21-08-2025 14:51:33.809 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+21-08-2025 14:51:33.809 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+21-08-2025 14:51:41.256 [java] [ERROR] Installed version of gauge-java (0.12.0) does not match with dependency gauge-java (0.7.13) specified in pom.xml file
+21-08-2025 14:51:41.381 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\alper\AppData\Local\Temp\gauge_temp4151048302\d88685d7ff7bd30195eff516c81c3441]
+21-08-2025 14:51:41.381 [java] [DEBUG] stdout/stderr is logged to logs\20092-javac.exe.out
+21-08-2025 14:51:42.563 [java] [ERROR] src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+21-08-2025 14:51:42.563 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 14:51:42.563 [java] [ERROR] ^
+21-08-2025 14:51:42.571 [java] [ERROR] src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+21-08-2025 14:51:42.571 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 14:51:42.571 [java] [ERROR] ^
+21-08-2025 14:51:42.581 [java] [ERROR] src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+21-08-2025 14:51:42.581 [java] [ERROR] import org.openqa.selenium.WebElement;
+21-08-2025 14:51:42.583 [java] [ERROR] ^
+21-08-2025 14:51:42.589 [java] [ERROR] src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:51:42.589 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 14:51:42.590 [java] [ERROR] ^
+21-08-2025 14:51:42.605 [java] [ERROR] src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 14:51:42.605 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+21-08-2025 14:51:42.605 [java] [ERROR] ^
+21-08-2025 14:51:42.617 [java] [ERROR] src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 14:51:42.617 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+21-08-2025 14:51:42.617 [java] [ERROR] ^
+21-08-2025 14:51:42.664 [java] [ERROR] src\main\java\HelperMethods.java:11: error: cannot find symbol
+21-08-2025 14:51:42.664 [java] [ERROR] WebDriver driver;
+21-08-2025 14:51:42.664 [java] [ERROR] ^
+21-08-2025 14:51:42.664 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:51:42.666 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.667 [java] [ERROR] src\main\java\HelperMethods.java:13: error: cannot find symbol
+21-08-2025 14:51:42.668 [java] [ERROR] public HelperMethods(WebDriver driver) {
+21-08-2025 14:51:42.668 [java] [ERROR] ^
+21-08-2025 14:51:42.669 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:51:42.669 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.686 [java] [ERROR] src\main\java\HelperMethods.java:21: error: cannot find symbol
+21-08-2025 14:51:42.686 [java] [ERROR] public void clickWhenClickable(By locator){
+21-08-2025 14:51:42.686 [java] [ERROR] ^
+21-08-2025 14:51:42.686 [java] [ERROR] symbol:   class By
+21-08-2025 14:51:42.686 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.686 [java] [ERROR] src\main\java\HelperMethods.java:25: error: cannot find symbol
+21-08-2025 14:51:42.687 [java] [ERROR] public void txtInput(By locator, String text){
+21-08-2025 14:51:42.687 [java] [ERROR] ^
+21-08-2025 14:51:42.687 [java] [ERROR] symbol:   class By
+21-08-2025 14:51:42.687 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.687 [java] [ERROR] src\main\java\HelperMethods.java:37: error: cannot find symbol
+21-08-2025 14:51:42.687 [java] [ERROR] public void productCheckInList(By locator_Amount,
+21-08-2025 14:51:42.688 [java] [ERROR] ^
+21-08-2025 14:51:42.688 [java] [ERROR] symbol:   class By
+21-08-2025 14:51:42.688 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.688 [java] [ERROR] src\main\java\HelperMethods.java:38: error: cannot find symbol
+21-08-2025 14:51:42.688 [java] [ERROR] By locator_productDetail,
+21-08-2025 14:51:42.688 [java] [ERROR] ^
+21-08-2025 14:51:42.688 [java] [ERROR] symbol:   class By
+21-08-2025 14:51:42.688 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.692 [java] [ERROR] src\main\java\HelperMethods.java:39: error: cannot find symbol
+21-08-2025 14:51:42.692 [java] [ERROR] By locator_product_title)
+21-08-2025 14:51:42.693 [java] [ERROR] ^
+21-08-2025 14:51:42.694 [java] [ERROR] symbol:   class By
+21-08-2025 14:51:42.694 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.710 [java] [ERROR] src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:51:42.711 [java] [ERROR] import org.junit.jupiter.api.AfterEach;
+21-08-2025 14:51:42.711 [java] [ERROR] ^
+21-08-2025 14:51:42.714 [java] [ERROR] src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:51:42.716 [java] [ERROR] import org.junit.jupiter.api.BeforeEach;
+21-08-2025 14:51:42.716 [java] [ERROR] ^
+21-08-2025 14:51:42.720 [java] [ERROR] src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:51:42.720 [java] [ERROR] import org.junit.jupiter.api.Test;
+21-08-2025 14:51:42.720 [java] [ERROR] ^
+21-08-2025 14:51:42.725 [java] [ERROR] src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+21-08-2025 14:51:42.725 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 14:51:42.725 [java] [ERROR] ^
+21-08-2025 14:51:42.730 [java] [ERROR] src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+21-08-2025 14:51:42.731 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 14:51:42.731 [java] [ERROR] ^
+21-08-2025 14:51:42.736 [java] [ERROR] src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:51:42.737 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 14:51:42.737 [java] [ERROR] ^
+21-08-2025 14:51:42.741 [java] [ERROR] src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:51:42.741 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+21-08-2025 14:51:42.742 [java] [ERROR] ^
+21-08-2025 14:51:42.747 [java] [ERROR] src\test\java\LoginTests.java:12: error: cannot find symbol
+21-08-2025 14:51:42.747 [java] [ERROR] WebDriver driver;
+21-08-2025 14:51:42.747 [java] [ERROR] ^
+21-08-2025 14:51:42.747 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:51:42.747 [java] [ERROR] location: class LoginTests
+21-08-2025 14:51:42.760 [java] [ERROR] src\test\java\LoginTests.java:13: error: cannot find symbol
+21-08-2025 14:51:42.760 [java] [ERROR] @BeforeEach
+21-08-2025 14:51:42.760 [java] [ERROR] ^
+21-08-2025 14:51:42.760 [java] [ERROR] symbol:   class BeforeEach
+21-08-2025 14:51:42.761 [java] [ERROR] location: class LoginTests
+21-08-2025 14:51:42.761 [java] [ERROR] src\test\java\LoginTests.java:25: error: cannot find symbol
+21-08-2025 14:51:42.761 [java] [ERROR] @AfterEach
+21-08-2025 14:51:42.761 [java] [ERROR] ^
+21-08-2025 14:51:42.762 [java] [ERROR] symbol:   class AfterEach
+21-08-2025 14:51:42.762 [java] [ERROR] location: class LoginTests
+21-08-2025 14:51:42.816 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 14:51:42.817 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 14:51:42.817 [java] [ERROR] ^
+21-08-2025 14:51:42.817 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:51:42.817 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.818 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 14:51:42.818 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 14:51:42.818 [java] [ERROR] ^
+21-08-2025 14:51:42.818 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:51:42.818 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.834 [java] [ERROR] src\main\java\HelperMethods.java:23: error: cannot find symbol
+21-08-2025 14:51:42.837 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+21-08-2025 14:51:42.837 [java] [ERROR] ^
+21-08-2025 14:51:42.837 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 14:51:42.837 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.837 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 14:51:42.838 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 14:51:42.838 [java] [ERROR] ^
+21-08-2025 14:51:42.838 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:51:42.838 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.839 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 14:51:42.840 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 14:51:42.840 [java] [ERROR] ^
+21-08-2025 14:51:42.840 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:51:42.840 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.842 [java] [ERROR] src\main\java\HelperMethods.java:27: error: cannot find symbol
+21-08-2025 14:51:42.842 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+21-08-2025 14:51:42.842 [java] [ERROR] ^
+21-08-2025 14:51:42.842 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 14:51:42.843 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.851 [java] [ERROR] src\main\java\HelperMethods.java:46: error: cannot find symbol
+21-08-2025 14:51:42.851 [java] [ERROR] WebElement productAmount =  driver.findElement(locator_Amount);
+21-08-2025 14:51:42.851 [java] [ERROR] ^
+21-08-2025 14:51:42.851 [java] [ERROR] symbol:   class WebElement
+21-08-2025 14:51:42.851 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:51:42.853 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 14:51:42.854 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 14:51:42.854 [java] [ERROR] ^
+21-08-2025 14:51:42.854 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 14:51:42.854 [java] [ERROR] location: class LoginTests
+21-08-2025 14:51:42.855 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 14:51:42.855 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 14:51:42.855 [java] [ERROR] ^
+21-08-2025 14:51:42.856 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 14:51:42.856 [java] [ERROR] location: class LoginTests
+21-08-2025 14:51:42.857 [java] [ERROR] src\test\java\LoginTests.java:20: error: cannot find symbol
+21-08-2025 14:51:42.857 [java] [ERROR] driver = new ChromeDriver(options); // önce driver baþlat
+21-08-2025 14:51:42.857 [java] [ERROR] ^
+21-08-2025 14:51:42.858 [java] [ERROR] symbol:   class ChromeDriver
+21-08-2025 14:51:42.858 [java] [ERROR] location: class LoginTests
+21-08-2025 14:51:42.870 [java] [ERROR] 33 errors
+21-08-2025 14:51:42.960 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 14:51:42.960 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 14:55:29.412 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 14:55:29.413 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 14:55:29.413 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 14:55:29.413 [Gauge] [DEBUG] Parsing started.
+21-08-2025 14:55:29.413 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 14:55:29.417 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 14:55:29.417 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 14:55:29.417 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 14:55:29.417 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 14:55:29.441 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 14:55:29.441 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Users\alper\AppData\Roaming\npm;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 14:55:29.441 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 14:55:29.441 [java] [DEBUG] overwrite_reports: true
+21-08-2025 14:55:29.441 [java] [DEBUG] logs_directory: logs
+21-08-2025 14:55:29.441 [java] [DEBUG] enable_multithreading: false
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 14:55:29.441 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_java_home: 
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 14:55:29.441 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 14:55:29.441 [java] [DEBUG] ***** END *****
+21-08-2025 14:55:29.712 [Gauge] [DEBUG] Checking updates...
+21-08-2025 14:55:29.715 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:55:29.980 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:55:30.085 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:55:30.253 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+21-08-2025 14:55:30.253 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Program%!F(MISSING)iles/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+21-08-2025 14:55:30.253 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+21-08-2025 14:55:30.253 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+21-08-2025 14:55:30.287 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:55:34.282 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\alper\AppData\Local\Temp\gauge_temp482257785\557556a66b954299db50d8bf735d5b7b]
+21-08-2025 14:55:34.283 [java] [DEBUG] stdout/stderr is logged to logs\25068-javac.exe.out
+21-08-2025 14:55:35.328 [java] [ERROR] src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+21-08-2025 14:55:35.329 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 14:55:35.329 [java] [ERROR] ^
+21-08-2025 14:55:35.347 [java] [ERROR] src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+21-08-2025 14:55:35.348 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 14:55:35.350 [java] [ERROR] ^
+21-08-2025 14:55:35.354 [java] [ERROR] src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+21-08-2025 14:55:35.354 [java] [ERROR] import org.openqa.selenium.WebElement;
+21-08-2025 14:55:35.355 [java] [ERROR] ^
+21-08-2025 14:55:35.370 [java] [ERROR] src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:55:35.370 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 14:55:35.370 [java] [ERROR] ^
+21-08-2025 14:55:35.383 [java] [ERROR] src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 14:55:35.384 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+21-08-2025 14:55:35.384 [java] [ERROR] ^
+21-08-2025 14:55:35.392 [java] [ERROR] src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 14:55:35.392 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+21-08-2025 14:55:35.392 [java] [ERROR] ^
+21-08-2025 14:55:35.432 [java] [ERROR] src\main\java\HelperMethods.java:11: error: cannot find symbol
+21-08-2025 14:55:35.432 [java] [ERROR] WebDriver driver;
+21-08-2025 14:55:35.432 [java] [ERROR] ^
+21-08-2025 14:55:35.432 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:55:35.432 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.433 [java] [ERROR] src\main\java\HelperMethods.java:13: error: cannot find symbol
+21-08-2025 14:55:35.433 [java] [ERROR] public HelperMethods(WebDriver driver) {
+21-08-2025 14:55:35.433 [java] [ERROR] ^
+21-08-2025 14:55:35.433 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:55:35.434 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.449 [java] [ERROR] src\main\java\HelperMethods.java:21: error: cannot find symbol
+21-08-2025 14:55:35.449 [java] [ERROR] public void clickWhenClickable(By locator){
+21-08-2025 14:55:35.449 [java] [ERROR] ^
+21-08-2025 14:55:35.450 [java] [ERROR] symbol:   class By
+21-08-2025 14:55:35.450 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.450 [java] [ERROR] src\main\java\HelperMethods.java:25: error: cannot find symbol
+21-08-2025 14:55:35.450 [java] [ERROR] public void txtInput(By locator, String text){
+21-08-2025 14:55:35.450 [java] [ERROR] ^
+21-08-2025 14:55:35.450 [java] [ERROR] symbol:   class By
+21-08-2025 14:55:35.450 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.450 [java] [ERROR] src\main\java\HelperMethods.java:37: error: cannot find symbol
+21-08-2025 14:55:35.451 [java] [ERROR] public void productCheckInList(By locator_Amount,
+21-08-2025 14:55:35.451 [java] [ERROR] ^
+21-08-2025 14:55:35.451 [java] [ERROR] symbol:   class By
+21-08-2025 14:55:35.451 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.451 [java] [ERROR] src\main\java\HelperMethods.java:38: error: cannot find symbol
+21-08-2025 14:55:35.451 [java] [ERROR] By locator_productDetail,
+21-08-2025 14:55:35.451 [java] [ERROR] ^
+21-08-2025 14:55:35.451 [java] [ERROR] symbol:   class By
+21-08-2025 14:55:35.452 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.452 [java] [ERROR] src\main\java\HelperMethods.java:39: error: cannot find symbol
+21-08-2025 14:55:35.452 [java] [ERROR] By locator_product_title)
+21-08-2025 14:55:35.452 [java] [ERROR] ^
+21-08-2025 14:55:35.452 [java] [ERROR] symbol:   class By
+21-08-2025 14:55:35.452 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.472 [java] [ERROR] src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:55:35.472 [java] [ERROR] import org.junit.jupiter.api.AfterEach;
+21-08-2025 14:55:35.473 [java] [ERROR] ^
+21-08-2025 14:55:35.478 [java] [ERROR] src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:55:35.478 [java] [ERROR] import org.junit.jupiter.api.BeforeEach;
+21-08-2025 14:55:35.478 [java] [ERROR] ^
+21-08-2025 14:55:35.481 [java] [ERROR] src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:55:35.482 [java] [ERROR] import org.junit.jupiter.api.Test;
+21-08-2025 14:55:35.482 [java] [ERROR] ^
+21-08-2025 14:55:35.488 [java] [ERROR] src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+21-08-2025 14:55:35.489 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 14:55:35.489 [java] [ERROR] ^
+21-08-2025 14:55:35.492 [java] [ERROR] src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+21-08-2025 14:55:35.492 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 14:55:35.492 [java] [ERROR] ^
+21-08-2025 14:55:35.496 [java] [ERROR] src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:55:35.496 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 14:55:35.496 [java] [ERROR] ^
+21-08-2025 14:55:35.501 [java] [ERROR] src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:55:35.501 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+21-08-2025 14:55:35.501 [java] [ERROR] ^
+21-08-2025 14:55:35.505 [java] [ERROR] src\test\java\LoginTests.java:12: error: cannot find symbol
+21-08-2025 14:55:35.505 [java] [ERROR] WebDriver driver;
+21-08-2025 14:55:35.505 [java] [ERROR] ^
+21-08-2025 14:55:35.505 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:55:35.505 [java] [ERROR] location: class LoginTests
+21-08-2025 14:55:35.516 [java] [ERROR] src\test\java\LoginTests.java:13: error: cannot find symbol
+21-08-2025 14:55:35.517 [java] [ERROR] @BeforeEach
+21-08-2025 14:55:35.518 [java] [ERROR] ^
+21-08-2025 14:55:35.519 [java] [ERROR] symbol:   class BeforeEach
+21-08-2025 14:55:35.519 [java] [ERROR] location: class LoginTests
+21-08-2025 14:55:35.519 [java] [ERROR] src\test\java\LoginTests.java:25: error: cannot find symbol
+21-08-2025 14:55:35.519 [java] [ERROR] @AfterEach
+21-08-2025 14:55:35.520 [java] [ERROR] ^
+21-08-2025 14:55:35.520 [java] [ERROR] symbol:   class AfterEach
+21-08-2025 14:55:35.522 [java] [ERROR] location: class LoginTests
+21-08-2025 14:55:35.556 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 14:55:35.556 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 14:55:35.556 [java] [ERROR] ^
+21-08-2025 14:55:35.556 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:55:35.557 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.557 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 14:55:35.557 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 14:55:35.557 [java] [ERROR] ^
+21-08-2025 14:55:35.557 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:55:35.558 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.578 [java] [ERROR] src\main\java\HelperMethods.java:23: error: cannot find symbol
+21-08-2025 14:55:35.578 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+21-08-2025 14:55:35.579 [java] [ERROR] ^
+21-08-2025 14:55:35.579 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 14:55:35.579 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.580 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 14:55:35.580 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 14:55:35.580 [java] [ERROR] ^
+21-08-2025 14:55:35.580 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:55:35.580 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.580 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 14:55:35.581 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 14:55:35.582 [java] [ERROR] ^
+21-08-2025 14:55:35.582 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:55:35.582 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.583 [java] [ERROR] src\main\java\HelperMethods.java:27: error: cannot find symbol
+21-08-2025 14:55:35.583 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+21-08-2025 14:55:35.584 [java] [ERROR] ^
+21-08-2025 14:55:35.584 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 14:55:35.584 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.588 [java] [ERROR] src\main\java\HelperMethods.java:46: error: cannot find symbol
+21-08-2025 14:55:35.588 [java] [ERROR] WebElement productAmount =  driver.findElement(locator_Amount);
+21-08-2025 14:55:35.588 [java] [ERROR] ^
+21-08-2025 14:55:35.588 [java] [ERROR] symbol:   class WebElement
+21-08-2025 14:55:35.589 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:55:35.594 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 14:55:35.594 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 14:55:35.595 [java] [ERROR] ^
+21-08-2025 14:55:35.595 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 14:55:35.595 [java] [ERROR] location: class LoginTests
+21-08-2025 14:55:35.595 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 14:55:35.595 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 14:55:35.595 [java] [ERROR] ^
+21-08-2025 14:55:35.596 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 14:55:35.596 [java] [ERROR] location: class LoginTests
+21-08-2025 14:55:35.597 [java] [ERROR] src\test\java\LoginTests.java:20: error: cannot find symbol
+21-08-2025 14:55:35.597 [java] [ERROR] driver = new ChromeDriver(options); // önce driver baþlat
+21-08-2025 14:55:35.597 [java] [ERROR] ^
+21-08-2025 14:55:35.597 [java] [ERROR] symbol:   class ChromeDriver
+21-08-2025 14:55:35.597 [java] [ERROR] location: class LoginTests
+21-08-2025 14:55:35.612 [java] [ERROR] 33 errors
+21-08-2025 14:55:35.665 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 14:55:35.665 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 14:59:28.345 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 14:59:28.347 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 14:59:28.348 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 14:59:28.348 [Gauge] [DEBUG] Parsing started.
+21-08-2025 14:59:28.348 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 14:59:28.360 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 14:59:28.360 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 14:59:28.361 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 14:59:28.361 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 14:59:28.393 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 14:59:28.393 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Users\alper\AppData\Roaming\npm;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 14:59:28.393 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 14:59:28.393 [java] [DEBUG] overwrite_reports: true
+21-08-2025 14:59:28.393 [java] [DEBUG] logs_directory: logs
+21-08-2025 14:59:28.393 [java] [DEBUG] enable_multithreading: false
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 14:59:28.393 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_java_home: 
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 14:59:28.393 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 14:59:28.393 [java] [DEBUG] ***** END *****
+21-08-2025 14:59:29.005 [Gauge] [DEBUG] Checking updates...
+21-08-2025 14:59:29.006 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:59:29.369 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:59:29.371 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+21-08-2025 14:59:29.371 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Program%!F(MISSING)iles/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+21-08-2025 14:59:29.372 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+21-08-2025 14:59:29.372 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+21-08-2025 14:59:29.491 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:59:29.595 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 14:59:33.870 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\alper\AppData\Local\Temp\gauge_temp1570364213\8e6b9469567930b00b8ae51ce44dc116]
+21-08-2025 14:59:33.870 [java] [DEBUG] stdout/stderr is logged to logs\7572-javac.exe.out
+21-08-2025 14:59:34.882 [java] [ERROR] src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+21-08-2025 14:59:34.883 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 14:59:34.883 [java] [ERROR] ^
+21-08-2025 14:59:34.899 [java] [ERROR] src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+21-08-2025 14:59:34.899 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 14:59:34.899 [java] [ERROR] ^
+21-08-2025 14:59:34.914 [java] [ERROR] src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+21-08-2025 14:59:34.923 [java] [ERROR] import org.openqa.selenium.WebElement;
+21-08-2025 14:59:34.923 [java] [ERROR] ^
+21-08-2025 14:59:34.927 [java] [ERROR] src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:59:34.927 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 14:59:34.927 [java] [ERROR] ^
+21-08-2025 14:59:34.941 [java] [ERROR] src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 14:59:34.941 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+21-08-2025 14:59:34.942 [java] [ERROR] ^
+21-08-2025 14:59:34.949 [java] [ERROR] src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 14:59:34.949 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+21-08-2025 14:59:34.949 [java] [ERROR] ^
+21-08-2025 14:59:34.994 [java] [ERROR] src\main\java\HelperMethods.java:11: error: cannot find symbol
+21-08-2025 14:59:34.994 [java] [ERROR] WebDriver driver;
+21-08-2025 14:59:34.995 [java] [ERROR] ^
+21-08-2025 14:59:34.995 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:59:34.995 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:34.996 [java] [ERROR] src\main\java\HelperMethods.java:13: error: cannot find symbol
+21-08-2025 14:59:34.996 [java] [ERROR] public HelperMethods(WebDriver driver) {
+21-08-2025 14:59:34.996 [java] [ERROR] ^
+21-08-2025 14:59:34.996 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:59:34.996 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.014 [java] [ERROR] src\main\java\HelperMethods.java:21: error: cannot find symbol
+21-08-2025 14:59:35.014 [java] [ERROR] public void clickWhenClickable(By locator){
+21-08-2025 14:59:35.014 [java] [ERROR] ^
+21-08-2025 14:59:35.014 [java] [ERROR] symbol:   class By
+21-08-2025 14:59:35.016 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.016 [java] [ERROR] src\main\java\HelperMethods.java:25: error: cannot find symbol
+21-08-2025 14:59:35.016 [java] [ERROR] public void txtInput(By locator, String text){
+21-08-2025 14:59:35.016 [java] [ERROR] ^
+21-08-2025 14:59:35.016 [java] [ERROR] symbol:   class By
+21-08-2025 14:59:35.016 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.019 [java] [ERROR] src\main\java\HelperMethods.java:37: error: cannot find symbol
+21-08-2025 14:59:35.019 [java] [ERROR] public void productCheckInList(By locator_Amount,
+21-08-2025 14:59:35.019 [java] [ERROR] ^
+21-08-2025 14:59:35.020 [java] [ERROR] symbol:   class By
+21-08-2025 14:59:35.020 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.020 [java] [ERROR] src\main\java\HelperMethods.java:38: error: cannot find symbol
+21-08-2025 14:59:35.021 [java] [ERROR] By locator_productDetail,
+21-08-2025 14:59:35.021 [java] [ERROR] ^
+21-08-2025 14:59:35.021 [java] [ERROR] symbol:   class By
+21-08-2025 14:59:35.021 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.021 [java] [ERROR] src\main\java\HelperMethods.java:39: error: cannot find symbol
+21-08-2025 14:59:35.021 [java] [ERROR] By locator_product_title)
+21-08-2025 14:59:35.021 [java] [ERROR] ^
+21-08-2025 14:59:35.022 [java] [ERROR] symbol:   class By
+21-08-2025 14:59:35.022 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.046 [java] [ERROR] src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:59:35.047 [java] [ERROR] import org.junit.jupiter.api.AfterEach;
+21-08-2025 14:59:35.047 [java] [ERROR] ^
+21-08-2025 14:59:35.055 [java] [ERROR] src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:59:35.056 [java] [ERROR] import org.junit.jupiter.api.BeforeEach;
+21-08-2025 14:59:35.056 [java] [ERROR] ^
+21-08-2025 14:59:35.063 [java] [ERROR] src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+21-08-2025 14:59:35.063 [java] [ERROR] import org.junit.jupiter.api.Test;
+21-08-2025 14:59:35.063 [java] [ERROR] ^
+21-08-2025 14:59:35.073 [java] [ERROR] src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+21-08-2025 14:59:35.074 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 14:59:35.074 [java] [ERROR] ^
+21-08-2025 14:59:35.077 [java] [ERROR] src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+21-08-2025 14:59:35.077 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 14:59:35.077 [java] [ERROR] ^
+21-08-2025 14:59:35.081 [java] [ERROR] src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:59:35.081 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 14:59:35.082 [java] [ERROR] ^
+21-08-2025 14:59:35.089 [java] [ERROR] src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 14:59:35.089 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+21-08-2025 14:59:35.090 [java] [ERROR] ^
+21-08-2025 14:59:35.095 [java] [ERROR] src\test\java\LoginTests.java:12: error: cannot find symbol
+21-08-2025 14:59:35.095 [java] [ERROR] WebDriver driver;
+21-08-2025 14:59:35.096 [java] [ERROR] ^
+21-08-2025 14:59:35.096 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 14:59:35.096 [java] [ERROR] location: class LoginTests
+21-08-2025 14:59:35.117 [java] [ERROR] src\test\java\LoginTests.java:13: error: cannot find symbol
+21-08-2025 14:59:35.117 [java] [ERROR] @BeforeEach
+21-08-2025 14:59:35.117 [java] [ERROR] ^
+21-08-2025 14:59:35.118 [java] [ERROR] symbol:   class BeforeEach
+21-08-2025 14:59:35.118 [java] [ERROR] location: class LoginTests
+21-08-2025 14:59:35.119 [java] [ERROR] src\test\java\LoginTests.java:25: error: cannot find symbol
+21-08-2025 14:59:35.120 [java] [ERROR] @AfterEach
+21-08-2025 14:59:35.120 [java] [ERROR] ^
+21-08-2025 14:59:35.121 [java] [ERROR] symbol:   class AfterEach
+21-08-2025 14:59:35.122 [java] [ERROR] location: class LoginTests
+21-08-2025 14:59:35.157 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 14:59:35.157 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 14:59:35.157 [java] [ERROR] ^
+21-08-2025 14:59:35.157 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:59:35.157 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.158 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 14:59:35.160 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 14:59:35.160 [java] [ERROR] ^
+21-08-2025 14:59:35.160 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:59:35.160 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.180 [java] [ERROR] src\main\java\HelperMethods.java:23: error: cannot find symbol
+21-08-2025 14:59:35.180 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+21-08-2025 14:59:35.180 [java] [ERROR] ^
+21-08-2025 14:59:35.180 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 14:59:35.180 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.181 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 14:59:35.181 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 14:59:35.181 [java] [ERROR] ^
+21-08-2025 14:59:35.181 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:59:35.181 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.181 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 14:59:35.182 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 14:59:35.182 [java] [ERROR] ^
+21-08-2025 14:59:35.182 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 14:59:35.182 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.184 [java] [ERROR] src\main\java\HelperMethods.java:27: error: cannot find symbol
+21-08-2025 14:59:35.185 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+21-08-2025 14:59:35.186 [java] [ERROR] ^
+21-08-2025 14:59:35.186 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 14:59:35.186 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.192 [java] [ERROR] src\main\java\HelperMethods.java:46: error: cannot find symbol
+21-08-2025 14:59:35.192 [java] [ERROR] WebElement productAmount =  driver.findElement(locator_Amount);
+21-08-2025 14:59:35.192 [java] [ERROR] ^
+21-08-2025 14:59:35.193 [java] [ERROR] symbol:   class WebElement
+21-08-2025 14:59:35.193 [java] [ERROR] location: class HelperMethods
+21-08-2025 14:59:35.195 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 14:59:35.196 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 14:59:35.196 [java] [ERROR] ^
+21-08-2025 14:59:35.196 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 14:59:35.196 [java] [ERROR] location: class LoginTests
+21-08-2025 14:59:35.196 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 14:59:35.197 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 14:59:35.197 [java] [ERROR] ^
+21-08-2025 14:59:35.197 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 14:59:35.197 [java] [ERROR] location: class LoginTests
+21-08-2025 14:59:35.198 [java] [ERROR] src\test\java\LoginTests.java:20: error: cannot find symbol
+21-08-2025 14:59:35.198 [java] [ERROR] driver = new ChromeDriver(options); // önce driver baþlat
+21-08-2025 14:59:35.198 [java] [ERROR] ^
+21-08-2025 14:59:35.199 [java] [ERROR] symbol:   class ChromeDriver
+21-08-2025 14:59:35.199 [java] [ERROR] location: class LoginTests
+21-08-2025 14:59:35.213 [java] [ERROR] 33 errors
+21-08-2025 14:59:35.261 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 14:59:35.261 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 15:16:50.167 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 15:16:50.170 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 15:16:50.170 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 15:16:50.171 [Gauge] [DEBUG] Parsing started.
+21-08-2025 15:16:50.171 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 15:16:50.178 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 15:16:50.178 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 15:16:50.179 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 15:16:50.179 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 15:16:50.205 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 15:16:50.206 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Users\alper\AppData\Roaming\npm;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 15:16:50.206 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 15:16:50.206 [java] [DEBUG] overwrite_reports: true
+21-08-2025 15:16:50.206 [java] [DEBUG] logs_directory: logs
+21-08-2025 15:16:50.206 [java] [DEBUG] enable_multithreading: false
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 15:16:50.206 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_java_home: 
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 15:16:50.206 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 15:16:50.206 [java] [DEBUG] ***** END *****
+21-08-2025 15:16:50.436 [Gauge] [DEBUG] Checking updates...
+21-08-2025 15:16:50.444 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 15:16:50.813 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 15:16:50.903 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 15:16:50.997 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=windows&a=amd64
+21-08-2025 15:16:51.018 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+21-08-2025 15:16:51.018 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Program%!F(MISSING)iles/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+21-08-2025 15:16:51.019 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+21-08-2025 15:16:51.019 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+21-08-2025 15:16:54.974 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\alper\AppData\Local\Temp\gauge_temp2417869829\89f26b32cca0b213eef82c292ae7e360]
+21-08-2025 15:16:54.974 [java] [DEBUG] stdout/stderr is logged to logs\5952-javac.exe.out
+21-08-2025 15:16:55.965 [java] [ERROR] src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+21-08-2025 15:16:55.965 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 15:16:55.965 [java] [ERROR] ^
+21-08-2025 15:16:55.984 [java] [ERROR] src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+21-08-2025 15:16:55.984 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 15:16:55.985 [java] [ERROR] ^
+21-08-2025 15:16:55.989 [java] [ERROR] src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+21-08-2025 15:16:55.989 [java] [ERROR] import org.openqa.selenium.WebElement;
+21-08-2025 15:16:55.989 [java] [ERROR] ^
+21-08-2025 15:16:55.999 [java] [ERROR] src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 15:16:56.000 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 15:16:56.001 [java] [ERROR] ^
+21-08-2025 15:16:56.011 [java] [ERROR] src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 15:16:56.011 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+21-08-2025 15:16:56.011 [java] [ERROR] ^
+21-08-2025 15:16:56.020 [java] [ERROR] src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 15:16:56.020 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+21-08-2025 15:16:56.021 [java] [ERROR] ^
+21-08-2025 15:16:56.049 [java] [ERROR] src\main\java\HelperMethods.java:11: error: cannot find symbol
+21-08-2025 15:16:56.049 [java] [ERROR] WebDriver driver;
+21-08-2025 15:16:56.049 [java] [ERROR] ^
+21-08-2025 15:16:56.049 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 15:16:56.050 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.050 [java] [ERROR] src\main\java\HelperMethods.java:13: error: cannot find symbol
+21-08-2025 15:16:56.051 [java] [ERROR] public HelperMethods(WebDriver driver) {
+21-08-2025 15:16:56.051 [java] [ERROR] ^
+21-08-2025 15:16:56.051 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 15:16:56.051 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.061 [java] [ERROR] src\main\java\HelperMethods.java:21: error: cannot find symbol
+21-08-2025 15:16:56.062 [java] [ERROR] public void clickWhenClickable(By locator){
+21-08-2025 15:16:56.062 [java] [ERROR] ^
+21-08-2025 15:16:56.062 [java] [ERROR] symbol:   class By
+21-08-2025 15:16:56.062 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.062 [java] [ERROR] src\main\java\HelperMethods.java:25: error: cannot find symbol
+21-08-2025 15:16:56.062 [java] [ERROR] public void txtInput(By locator, String text){
+21-08-2025 15:16:56.062 [java] [ERROR] ^
+21-08-2025 15:16:56.062 [java] [ERROR] symbol:   class By
+21-08-2025 15:16:56.062 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.063 [java] [ERROR] src\main\java\HelperMethods.java:37: error: cannot find symbol
+21-08-2025 15:16:56.063 [java] [ERROR] public void productCheckInList(By locator_Amount,
+21-08-2025 15:16:56.063 [java] [ERROR] ^
+21-08-2025 15:16:56.064 [java] [ERROR] symbol:   class By
+21-08-2025 15:16:56.064 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.064 [java] [ERROR] src\main\java\HelperMethods.java:38: error: cannot find symbol
+21-08-2025 15:16:56.064 [java] [ERROR] By locator_productDetail,
+21-08-2025 15:16:56.064 [java] [ERROR] ^
+21-08-2025 15:16:56.064 [java] [ERROR] symbol:   class By
+21-08-2025 15:16:56.064 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.064 [java] [ERROR] src\main\java\HelperMethods.java:39: error: cannot find symbol
+21-08-2025 15:16:56.064 [java] [ERROR] By locator_product_title)
+21-08-2025 15:16:56.064 [java] [ERROR] ^
+21-08-2025 15:16:56.065 [java] [ERROR] symbol:   class By
+21-08-2025 15:16:56.065 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.082 [java] [ERROR] src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+21-08-2025 15:16:56.082 [java] [ERROR] import org.junit.jupiter.api.AfterEach;
+21-08-2025 15:16:56.082 [java] [ERROR] ^
+21-08-2025 15:16:56.087 [java] [ERROR] src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+21-08-2025 15:16:56.087 [java] [ERROR] import org.junit.jupiter.api.BeforeEach;
+21-08-2025 15:16:56.087 [java] [ERROR] ^
+21-08-2025 15:16:56.096 [java] [ERROR] src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+21-08-2025 15:16:56.096 [java] [ERROR] import org.junit.jupiter.api.Test;
+21-08-2025 15:16:56.096 [java] [ERROR] ^
+21-08-2025 15:16:56.098 [java] [ERROR] src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+21-08-2025 15:16:56.098 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 15:16:56.099 [java] [ERROR] ^
+21-08-2025 15:16:56.102 [java] [ERROR] src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+21-08-2025 15:16:56.102 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 15:16:56.102 [java] [ERROR] ^
+21-08-2025 15:16:56.106 [java] [ERROR] src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 15:16:56.106 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 15:16:56.106 [java] [ERROR] ^
+21-08-2025 15:16:56.110 [java] [ERROR] src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 15:16:56.110 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+21-08-2025 15:16:56.110 [java] [ERROR] ^
+21-08-2025 15:16:56.116 [java] [ERROR] src\test\java\LoginTests.java:12: error: cannot find symbol
+21-08-2025 15:16:56.116 [java] [ERROR] WebDriver driver;
+21-08-2025 15:16:56.116 [java] [ERROR] ^
+21-08-2025 15:16:56.116 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 15:16:56.117 [java] [ERROR] location: class LoginTests
+21-08-2025 15:16:56.129 [java] [ERROR] src\test\java\LoginTests.java:13: error: cannot find symbol
+21-08-2025 15:16:56.129 [java] [ERROR] @BeforeEach
+21-08-2025 15:16:56.130 [java] [ERROR] ^
+21-08-2025 15:16:56.130 [java] [ERROR] symbol:   class BeforeEach
+21-08-2025 15:16:56.130 [java] [ERROR] location: class LoginTests
+21-08-2025 15:16:56.130 [java] [ERROR] src\test\java\LoginTests.java:25: error: cannot find symbol
+21-08-2025 15:16:56.131 [java] [ERROR] @AfterEach
+21-08-2025 15:16:56.131 [java] [ERROR] ^
+21-08-2025 15:16:56.131 [java] [ERROR] symbol:   class AfterEach
+21-08-2025 15:16:56.131 [java] [ERROR] location: class LoginTests
+21-08-2025 15:16:56.167 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 15:16:56.167 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 15:16:56.167 [java] [ERROR] ^
+21-08-2025 15:16:56.167 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 15:16:56.168 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.168 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 15:16:56.169 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 15:16:56.169 [java] [ERROR] ^
+21-08-2025 15:16:56.169 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 15:16:56.169 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.185 [java] [ERROR] src\main\java\HelperMethods.java:23: error: cannot find symbol
+21-08-2025 15:16:56.185 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+21-08-2025 15:16:56.186 [java] [ERROR] ^
+21-08-2025 15:16:56.186 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 15:16:56.186 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.186 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 15:16:56.186 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 15:16:56.186 [java] [ERROR] ^
+21-08-2025 15:16:56.186 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 15:16:56.186 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.187 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 15:16:56.187 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 15:16:56.187 [java] [ERROR] ^
+21-08-2025 15:16:56.188 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 15:16:56.188 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.191 [java] [ERROR] src\main\java\HelperMethods.java:27: error: cannot find symbol
+21-08-2025 15:16:56.191 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+21-08-2025 15:16:56.191 [java] [ERROR] ^
+21-08-2025 15:16:56.191 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 15:16:56.191 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.195 [java] [ERROR] src\main\java\HelperMethods.java:46: error: cannot find symbol
+21-08-2025 15:16:56.195 [java] [ERROR] WebElement productAmount =  driver.findElement(locator_Amount);
+21-08-2025 15:16:56.196 [java] [ERROR] ^
+21-08-2025 15:16:56.196 [java] [ERROR] symbol:   class WebElement
+21-08-2025 15:16:56.196 [java] [ERROR] location: class HelperMethods
+21-08-2025 15:16:56.199 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 15:16:56.199 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 15:16:56.199 [java] [ERROR] ^
+21-08-2025 15:16:56.199 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 15:16:56.199 [java] [ERROR] location: class LoginTests
+21-08-2025 15:16:56.201 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 15:16:56.201 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 15:16:56.202 [java] [ERROR] ^
+21-08-2025 15:16:56.202 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 15:16:56.202 [java] [ERROR] location: class LoginTests
+21-08-2025 15:16:56.203 [java] [ERROR] src\test\java\LoginTests.java:20: error: cannot find symbol
+21-08-2025 15:16:56.203 [java] [ERROR] driver = new ChromeDriver(options); // önce driver baþlat
+21-08-2025 15:16:56.203 [java] [ERROR] ^
+21-08-2025 15:16:56.203 [java] [ERROR] symbol:   class ChromeDriver
+21-08-2025 15:16:56.203 [java] [ERROR] location: class LoginTests
+21-08-2025 15:16:56.214 [java] [ERROR] 33 errors
+21-08-2025 15:16:56.263 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 15:16:56.263 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 16:01:50.805 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 16:01:50.823 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 16:01:50.824 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 16:01:50.830 [Gauge] [DEBUG] Parsing started.
+21-08-2025 16:01:50.831 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 16:01:50.854 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 16:01:50.854 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 16:01:50.859 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 16:01:50.860 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 16:01:52.129 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 16:01:52.129 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 16:01:52.129 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 16:01:52.129 [java] [DEBUG] overwrite_reports: true
+21-08-2025 16:01:52.129 [java] [DEBUG] logs_directory: logs
+21-08-2025 16:01:52.129 [java] [DEBUG] enable_multithreading: false
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 16:01:52.129 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_java_home: 
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 16:01:52.129 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 16:01:52.129 [java] [DEBUG] ***** END *****
+21-08-2025 16:01:52.152 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-08-2025 16:01:52.152 [java] [ERROR] Installed version of gauge-java (0.12.0) does not match with dependency gauge-java () specified in pom.xml file
+21-08-2025 16:01:52.310 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\alper\AppData\Local\Temp\gauge_temp2682978820\529da98b3638613d5ac7b9532d5e0531]
+21-08-2025 16:01:52.310 [java] [DEBUG] stdout/stderr is logged to logs\17092-javac.exe.out
+21-08-2025 16:01:53.921 [java] [ERROR] src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+21-08-2025 16:01:53.921 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 16:01:53.921 [java] [ERROR] ^
+21-08-2025 16:01:53.932 [java] [ERROR] src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+21-08-2025 16:01:53.932 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 16:01:53.932 [java] [ERROR] ^
+21-08-2025 16:01:53.969 [java] [ERROR] src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+21-08-2025 16:01:53.978 [java] [ERROR] import org.openqa.selenium.WebElement;
+21-08-2025 16:01:53.981 [java] [ERROR] ^
+21-08-2025 16:01:54.002 [java] [ERROR] src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:01:54.003 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 16:01:54.004 [java] [ERROR] ^
+21-08-2025 16:01:54.040 [java] [ERROR] src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 16:01:54.040 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+21-08-2025 16:01:54.040 [java] [ERROR] ^
+21-08-2025 16:01:54.052 [java] [ERROR] src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 16:01:54.052 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+21-08-2025 16:01:54.053 [java] [ERROR] ^
+21-08-2025 16:01:54.120 [java] [ERROR] src\main\java\HelperMethods.java:11: error: cannot find symbol
+21-08-2025 16:01:54.120 [java] [ERROR] WebDriver driver;
+21-08-2025 16:01:54.121 [java] [ERROR] ^
+21-08-2025 16:01:54.121 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:01:54.121 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.122 [java] [ERROR] src\main\java\HelperMethods.java:13: error: cannot find symbol
+21-08-2025 16:01:54.122 [java] [ERROR] public HelperMethods(WebDriver driver) {
+21-08-2025 16:01:54.122 [java] [ERROR] ^
+21-08-2025 16:01:54.122 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:01:54.122 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.154 [java] [ERROR] src\main\java\HelperMethods.java:21: error: cannot find symbol
+21-08-2025 16:01:54.156 [java] [ERROR] public void clickWhenClickable(By locator){
+21-08-2025 16:01:54.158 [java] [ERROR] ^
+21-08-2025 16:01:54.161 [java] [ERROR] symbol:   class By
+21-08-2025 16:01:54.163 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.167 [java] [ERROR] src\main\java\HelperMethods.java:25: error: cannot find symbol
+21-08-2025 16:01:54.169 [java] [ERROR] public void txtInput(By locator, String text){
+21-08-2025 16:01:54.170 [java] [ERROR] ^
+21-08-2025 16:01:54.170 [java] [ERROR] symbol:   class By
+21-08-2025 16:01:54.170 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.173 [java] [ERROR] src\main\java\HelperMethods.java:37: error: cannot find symbol
+21-08-2025 16:01:54.174 [java] [ERROR] public void productCheckInList(By locator_Amount,
+21-08-2025 16:01:54.174 [java] [ERROR] ^
+21-08-2025 16:01:54.174 [java] [ERROR] symbol:   class By
+21-08-2025 16:01:54.174 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.175 [java] [ERROR] src\main\java\HelperMethods.java:38: error: cannot find symbol
+21-08-2025 16:01:54.175 [java] [ERROR] By locator_productDetail,
+21-08-2025 16:01:54.175 [java] [ERROR] ^
+21-08-2025 16:01:54.176 [java] [ERROR] symbol:   class By
+21-08-2025 16:01:54.176 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.176 [java] [ERROR] src\main\java\HelperMethods.java:39: error: cannot find symbol
+21-08-2025 16:01:54.178 [java] [ERROR] By locator_product_title)
+21-08-2025 16:01:54.178 [java] [ERROR] ^
+21-08-2025 16:01:54.178 [java] [ERROR] symbol:   class By
+21-08-2025 16:01:54.179 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.228 [java] [ERROR] src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:01:54.229 [java] [ERROR] import org.junit.jupiter.api.AfterEach;
+21-08-2025 16:01:54.230 [java] [ERROR] ^
+21-08-2025 16:01:54.240 [java] [ERROR] src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:01:54.241 [java] [ERROR] import org.junit.jupiter.api.BeforeEach;
+21-08-2025 16:01:54.241 [java] [ERROR] ^
+21-08-2025 16:01:54.245 [java] [ERROR] src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:01:54.246 [java] [ERROR] import org.junit.jupiter.api.Test;
+21-08-2025 16:01:54.246 [java] [ERROR] ^
+21-08-2025 16:01:54.255 [java] [ERROR] src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+21-08-2025 16:01:54.256 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 16:01:54.256 [java] [ERROR] ^
+21-08-2025 16:01:54.274 [java] [ERROR] src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+21-08-2025 16:01:54.275 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 16:01:54.276 [java] [ERROR] ^
+21-08-2025 16:01:54.283 [java] [ERROR] src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:01:54.283 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 16:01:54.283 [java] [ERROR] ^
+21-08-2025 16:01:54.301 [java] [ERROR] src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:01:54.302 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+21-08-2025 16:01:54.303 [java] [ERROR] ^
+21-08-2025 16:01:54.309 [java] [ERROR] src\test\java\LoginTests.java:12: error: cannot find symbol
+21-08-2025 16:01:54.309 [java] [ERROR] WebDriver driver;
+21-08-2025 16:01:54.309 [java] [ERROR] ^
+21-08-2025 16:01:54.310 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:01:54.310 [java] [ERROR] location: class LoginTests
+21-08-2025 16:01:54.321 [java] [ERROR] src\test\java\LoginTests.java:13: error: cannot find symbol
+21-08-2025 16:01:54.322 [java] [ERROR] @BeforeEach
+21-08-2025 16:01:54.323 [java] [ERROR] ^
+21-08-2025 16:01:54.325 [java] [ERROR] symbol:   class BeforeEach
+21-08-2025 16:01:54.325 [java] [ERROR] location: class LoginTests
+21-08-2025 16:01:54.326 [java] [ERROR] src\test\java\LoginTests.java:25: error: cannot find symbol
+21-08-2025 16:01:54.335 [java] [ERROR] @AfterEach
+21-08-2025 16:01:54.336 [java] [ERROR] ^
+21-08-2025 16:01:54.337 [java] [ERROR] symbol:   class AfterEach
+21-08-2025 16:01:54.338 [java] [ERROR] location: class LoginTests
+21-08-2025 16:01:54.392 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 16:01:54.397 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 16:01:54.399 [java] [ERROR] ^
+21-08-2025 16:01:54.400 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:01:54.401 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.401 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 16:01:54.402 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 16:01:54.402 [java] [ERROR] ^
+21-08-2025 16:01:54.403 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:01:54.403 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.419 [java] [ERROR] src\main\java\HelperMethods.java:23: error: cannot find symbol
+21-08-2025 16:01:54.436 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+21-08-2025 16:01:54.438 [java] [ERROR] ^
+21-08-2025 16:01:54.438 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 16:01:54.441 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.441 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 16:01:54.442 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 16:01:54.442 [java] [ERROR] ^
+21-08-2025 16:01:54.442 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:01:54.442 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.442 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 16:01:54.442 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 16:01:54.442 [java] [ERROR] ^
+21-08-2025 16:01:54.442 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:01:54.444 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.444 [java] [ERROR] src\main\java\HelperMethods.java:27: error: cannot find symbol
+21-08-2025 16:01:54.444 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+21-08-2025 16:01:54.445 [java] [ERROR] ^
+21-08-2025 16:01:54.445 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 16:01:54.449 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.469 [java] [ERROR] src\main\java\HelperMethods.java:46: error: cannot find symbol
+21-08-2025 16:01:54.471 [java] [ERROR] WebElement productAmount =  driver.findElement(locator_Amount);
+21-08-2025 16:01:54.471 [java] [ERROR] ^
+21-08-2025 16:01:54.472 [java] [ERROR] symbol:   class WebElement
+21-08-2025 16:01:54.472 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:01:54.472 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 16:01:54.472 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 16:01:54.472 [java] [ERROR] ^
+21-08-2025 16:01:54.472 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 16:01:54.473 [java] [ERROR] location: class LoginTests
+21-08-2025 16:01:54.473 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 16:01:54.473 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 16:01:54.473 [java] [ERROR] ^
+21-08-2025 16:01:54.473 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 16:01:54.473 [java] [ERROR] location: class LoginTests
+21-08-2025 16:01:54.474 [java] [ERROR] src\test\java\LoginTests.java:20: error: cannot find symbol
+21-08-2025 16:01:54.474 [java] [ERROR] driver = new ChromeDriver(options); // önce driver baþlat
+21-08-2025 16:01:54.475 [java] [ERROR] ^
+21-08-2025 16:01:54.475 [java] [ERROR] symbol:   class ChromeDriver
+21-08-2025 16:01:54.476 [java] [ERROR] location: class LoginTests
+21-08-2025 16:01:54.519 [java] [ERROR] 33 errors
+21-08-2025 16:01:54.664 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 16:01:54.664 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 16:18:52.375 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 16:18:52.377 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 16:18:52.378 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 16:18:52.379 [Gauge] [DEBUG] Parsing started.
+21-08-2025 16:18:52.379 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 16:18:52.385 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 16:18:52.385 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 16:18:52.386 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 16:18:52.386 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 16:18:52.413 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 16:18:52.413 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 16:18:52.413 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 16:18:52.413 [java] [DEBUG] overwrite_reports: true
+21-08-2025 16:18:52.413 [java] [DEBUG] logs_directory: logs
+21-08-2025 16:18:52.413 [java] [DEBUG] enable_multithreading: false
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 16:18:52.413 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_java_home: 
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 16:18:52.413 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 16:18:52.413 [java] [DEBUG] ***** END *****
+21-08-2025 16:18:52.429 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-08-2025 16:18:52.431 [java] [ERROR] Installed version of gauge-java (0.12.0) does not match with dependency gauge-java () specified in pom.xml file
+21-08-2025 16:18:52.503 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\alper\AppData\Local\Temp\gauge_temp2221649064\2453191845da50492002b5533a6ef0d8]
+21-08-2025 16:18:52.503 [java] [DEBUG] stdout/stderr is logged to logs\26448-javac.exe.out
+21-08-2025 16:18:53.887 [java] [ERROR] src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+21-08-2025 16:18:53.887 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 16:18:53.887 [java] [ERROR] ^
+21-08-2025 16:18:53.911 [java] [ERROR] src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+21-08-2025 16:18:53.912 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 16:18:53.912 [java] [ERROR] ^
+21-08-2025 16:18:53.920 [java] [ERROR] src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+21-08-2025 16:18:53.920 [java] [ERROR] import org.openqa.selenium.WebElement;
+21-08-2025 16:18:53.921 [java] [ERROR] ^
+21-08-2025 16:18:53.936 [java] [ERROR] src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:18:53.938 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 16:18:53.938 [java] [ERROR] ^
+21-08-2025 16:18:53.965 [java] [ERROR] src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 16:18:53.965 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+21-08-2025 16:18:53.966 [java] [ERROR] ^
+21-08-2025 16:18:53.976 [java] [ERROR] src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 16:18:53.976 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+21-08-2025 16:18:53.976 [java] [ERROR] ^
+21-08-2025 16:18:54.011 [java] [ERROR] src\main\java\HelperMethods.java:11: error: cannot find symbol
+21-08-2025 16:18:54.011 [java] [ERROR] WebDriver driver;
+21-08-2025 16:18:54.011 [java] [ERROR] ^
+21-08-2025 16:18:54.012 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:18:54.012 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.013 [java] [ERROR] src\main\java\HelperMethods.java:13: error: cannot find symbol
+21-08-2025 16:18:54.013 [java] [ERROR] public HelperMethods(WebDriver driver) {
+21-08-2025 16:18:54.013 [java] [ERROR] ^
+21-08-2025 16:18:54.013 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:18:54.014 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.024 [java] [ERROR] src\main\java\HelperMethods.java:21: error: cannot find symbol
+21-08-2025 16:18:54.024 [java] [ERROR] public void clickWhenClickable(By locator){
+21-08-2025 16:18:54.025 [java] [ERROR] ^
+21-08-2025 16:18:54.025 [java] [ERROR] symbol:   class By
+21-08-2025 16:18:54.025 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.025 [java] [ERROR] src\main\java\HelperMethods.java:25: error: cannot find symbol
+21-08-2025 16:18:54.026 [java] [ERROR] public void txtInput(By locator, String text){
+21-08-2025 16:18:54.026 [java] [ERROR] ^
+21-08-2025 16:18:54.026 [java] [ERROR] symbol:   class By
+21-08-2025 16:18:54.026 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.026 [java] [ERROR] src\main\java\HelperMethods.java:37: error: cannot find symbol
+21-08-2025 16:18:54.026 [java] [ERROR] public void productCheckInList(By locator_Amount,
+21-08-2025 16:18:54.027 [java] [ERROR] ^
+21-08-2025 16:18:54.027 [java] [ERROR] symbol:   class By
+21-08-2025 16:18:54.027 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.027 [java] [ERROR] src\main\java\HelperMethods.java:38: error: cannot find symbol
+21-08-2025 16:18:54.027 [java] [ERROR] By locator_productDetail,
+21-08-2025 16:18:54.027 [java] [ERROR] ^
+21-08-2025 16:18:54.027 [java] [ERROR] symbol:   class By
+21-08-2025 16:18:54.027 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.028 [java] [ERROR] src\main\java\HelperMethods.java:39: error: cannot find symbol
+21-08-2025 16:18:54.028 [java] [ERROR] By locator_product_title)
+21-08-2025 16:18:54.028 [java] [ERROR] ^
+21-08-2025 16:18:54.028 [java] [ERROR] symbol:   class By
+21-08-2025 16:18:54.028 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.047 [java] [ERROR] src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:18:54.047 [java] [ERROR] import org.junit.jupiter.api.AfterEach;
+21-08-2025 16:18:54.047 [java] [ERROR] ^
+21-08-2025 16:18:54.051 [java] [ERROR] src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:18:54.051 [java] [ERROR] import org.junit.jupiter.api.BeforeEach;
+21-08-2025 16:18:54.051 [java] [ERROR] ^
+21-08-2025 16:18:54.060 [java] [ERROR] src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:18:54.060 [java] [ERROR] import org.junit.jupiter.api.Test;
+21-08-2025 16:18:54.061 [java] [ERROR] ^
+21-08-2025 16:18:54.067 [java] [ERROR] src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+21-08-2025 16:18:54.068 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 16:18:54.068 [java] [ERROR] ^
+21-08-2025 16:18:54.070 [java] [ERROR] src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+21-08-2025 16:18:54.071 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 16:18:54.071 [java] [ERROR] ^
+21-08-2025 16:18:54.076 [java] [ERROR] src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:18:54.077 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 16:18:54.077 [java] [ERROR] ^
+21-08-2025 16:18:54.083 [java] [ERROR] src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:18:54.083 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+21-08-2025 16:18:54.084 [java] [ERROR] ^
+21-08-2025 16:18:54.089 [java] [ERROR] src\test\java\LoginTests.java:12: error: cannot find symbol
+21-08-2025 16:18:54.090 [java] [ERROR] WebDriver driver;
+21-08-2025 16:18:54.090 [java] [ERROR] ^
+21-08-2025 16:18:54.090 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:18:54.091 [java] [ERROR] location: class LoginTests
+21-08-2025 16:18:54.099 [java] [ERROR] src\test\java\LoginTests.java:13: error: cannot find symbol
+21-08-2025 16:18:54.099 [java] [ERROR] @BeforeEach
+21-08-2025 16:18:54.099 [java] [ERROR] ^
+21-08-2025 16:18:54.099 [java] [ERROR] symbol:   class BeforeEach
+21-08-2025 16:18:54.099 [java] [ERROR] location: class LoginTests
+21-08-2025 16:18:54.100 [java] [ERROR] src\test\java\LoginTests.java:25: error: cannot find symbol
+21-08-2025 16:18:54.100 [java] [ERROR] @AfterEach
+21-08-2025 16:18:54.100 [java] [ERROR] ^
+21-08-2025 16:18:54.100 [java] [ERROR] symbol:   class AfterEach
+21-08-2025 16:18:54.100 [java] [ERROR] location: class LoginTests
+21-08-2025 16:18:54.136 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 16:18:54.136 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 16:18:54.136 [java] [ERROR] ^
+21-08-2025 16:18:54.136 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:18:54.136 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.136 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 16:18:54.137 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 16:18:54.137 [java] [ERROR] ^
+21-08-2025 16:18:54.137 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:18:54.137 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.150 [java] [ERROR] src\main\java\HelperMethods.java:23: error: cannot find symbol
+21-08-2025 16:18:54.150 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+21-08-2025 16:18:54.150 [java] [ERROR] ^
+21-08-2025 16:18:54.150 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 16:18:54.151 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.151 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 16:18:54.151 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 16:18:54.151 [java] [ERROR] ^
+21-08-2025 16:18:54.151 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:18:54.151 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.152 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 16:18:54.152 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 16:18:54.152 [java] [ERROR] ^
+21-08-2025 16:18:54.153 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:18:54.153 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.155 [java] [ERROR] src\main\java\HelperMethods.java:27: error: cannot find symbol
+21-08-2025 16:18:54.155 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+21-08-2025 16:18:54.156 [java] [ERROR] ^
+21-08-2025 16:18:54.156 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 16:18:54.156 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.160 [java] [ERROR] src\main\java\HelperMethods.java:46: error: cannot find symbol
+21-08-2025 16:18:54.160 [java] [ERROR] WebElement productAmount =  driver.findElement(locator_Amount);
+21-08-2025 16:18:54.160 [java] [ERROR] ^
+21-08-2025 16:18:54.160 [java] [ERROR] symbol:   class WebElement
+21-08-2025 16:18:54.161 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:18:54.163 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 16:18:54.163 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 16:18:54.163 [java] [ERROR] ^
+21-08-2025 16:18:54.163 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 16:18:54.164 [java] [ERROR] location: class LoginTests
+21-08-2025 16:18:54.164 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 16:18:54.164 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 16:18:54.164 [java] [ERROR] ^
+21-08-2025 16:18:54.164 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 16:18:54.164 [java] [ERROR] location: class LoginTests
+21-08-2025 16:18:54.165 [java] [ERROR] src\test\java\LoginTests.java:20: error: cannot find symbol
+21-08-2025 16:18:54.166 [java] [ERROR] driver = new ChromeDriver(options); // önce driver baþlat
+21-08-2025 16:18:54.166 [java] [ERROR] ^
+21-08-2025 16:18:54.166 [java] [ERROR] symbol:   class ChromeDriver
+21-08-2025 16:18:54.166 [java] [ERROR] location: class LoginTests
+21-08-2025 16:18:54.178 [java] [ERROR] 33 errors
+21-08-2025 16:18:54.256 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 16:18:54.256 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 16:32:19.321 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 16:32:19.324 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 16:32:19.325 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 16:32:19.326 [Gauge] [DEBUG] Parsing started.
+21-08-2025 16:32:19.326 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 16:32:19.332 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 16:32:19.332 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 16:32:19.334 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 16:32:19.334 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 16:32:19.367 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 16:32:19.367 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 16:32:19.367 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 16:32:19.367 [java] [DEBUG] overwrite_reports: true
+21-08-2025 16:32:19.367 [java] [DEBUG] logs_directory: logs
+21-08-2025 16:32:19.367 [java] [DEBUG] enable_multithreading: false
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 16:32:19.367 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_java_home: 
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 16:32:19.367 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 16:32:19.367 [java] [DEBUG] ***** END *****
+21-08-2025 16:32:19.380 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-08-2025 16:32:19.381 [java] [ERROR] Installed version of gauge-java (0.12.0) does not match with dependency gauge-java () specified in pom.xml file
+21-08-2025 16:32:19.419 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\alper\AppData\Local\Temp\gauge_temp1664852967\928df49c00b7afc1e56728b1f48a6a7e]
+21-08-2025 16:32:19.420 [java] [DEBUG] stdout/stderr is logged to logs\7644-javac.exe.out
+21-08-2025 16:32:20.913 [java] [ERROR] src\main\java\HelperMethods.java:1: error: package org.openqa.selenium does not exist
+21-08-2025 16:32:20.914 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 16:32:20.914 [java] [ERROR] ^
+21-08-2025 16:32:20.931 [java] [ERROR] src\main\java\HelperMethods.java:2: error: package org.openqa.selenium does not exist
+21-08-2025 16:32:20.931 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 16:32:20.931 [java] [ERROR] ^
+21-08-2025 16:32:20.940 [java] [ERROR] src\main\java\HelperMethods.java:3: error: package org.openqa.selenium does not exist
+21-08-2025 16:32:20.940 [java] [ERROR] import org.openqa.selenium.WebElement;
+21-08-2025 16:32:20.941 [java] [ERROR] ^
+21-08-2025 16:32:20.967 [java] [ERROR] src\main\java\HelperMethods.java:4: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:32:20.967 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 16:32:20.967 [java] [ERROR] ^
+21-08-2025 16:32:20.989 [java] [ERROR] src\main\java\HelperMethods.java:5: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 16:32:20.989 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+21-08-2025 16:32:20.990 [java] [ERROR] ^
+21-08-2025 16:32:20.999 [java] [ERROR] src\main\java\HelperMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+21-08-2025 16:32:21.000 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+21-08-2025 16:32:21.000 [java] [ERROR] ^
+21-08-2025 16:32:21.047 [java] [ERROR] src\main\java\HelperMethods.java:11: error: cannot find symbol
+21-08-2025 16:32:21.048 [java] [ERROR] WebDriver driver;
+21-08-2025 16:32:21.048 [java] [ERROR] ^
+21-08-2025 16:32:21.048 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:32:21.048 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.049 [java] [ERROR] src\main\java\HelperMethods.java:13: error: cannot find symbol
+21-08-2025 16:32:21.049 [java] [ERROR] public HelperMethods(WebDriver driver) {
+21-08-2025 16:32:21.050 [java] [ERROR] ^
+21-08-2025 16:32:21.050 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:32:21.051 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.070 [java] [ERROR] src\main\java\HelperMethods.java:21: error: cannot find symbol
+21-08-2025 16:32:21.070 [java] [ERROR] public void clickWhenClickable(By locator){
+21-08-2025 16:32:21.071 [java] [ERROR] ^
+21-08-2025 16:32:21.071 [java] [ERROR] symbol:   class By
+21-08-2025 16:32:21.071 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.071 [java] [ERROR] src\main\java\HelperMethods.java:25: error: cannot find symbol
+21-08-2025 16:32:21.071 [java] [ERROR] public void txtInput(By locator, String text){
+21-08-2025 16:32:21.071 [java] [ERROR] ^
+21-08-2025 16:32:21.072 [java] [ERROR] symbol:   class By
+21-08-2025 16:32:21.072 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.073 [java] [ERROR] src\main\java\HelperMethods.java:37: error: cannot find symbol
+21-08-2025 16:32:21.074 [java] [ERROR] public void productCheckInList(By locator_Amount,
+21-08-2025 16:32:21.075 [java] [ERROR] ^
+21-08-2025 16:32:21.075 [java] [ERROR] symbol:   class By
+21-08-2025 16:32:21.076 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.077 [java] [ERROR] src\main\java\HelperMethods.java:38: error: cannot find symbol
+21-08-2025 16:32:21.077 [java] [ERROR] By locator_productDetail,
+21-08-2025 16:32:21.077 [java] [ERROR] ^
+21-08-2025 16:32:21.077 [java] [ERROR] symbol:   class By
+21-08-2025 16:32:21.077 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.078 [java] [ERROR] src\main\java\HelperMethods.java:39: error: cannot find symbol
+21-08-2025 16:32:21.078 [java] [ERROR] By locator_product_title)
+21-08-2025 16:32:21.078 [java] [ERROR] ^
+21-08-2025 16:32:21.078 [java] [ERROR] symbol:   class By
+21-08-2025 16:32:21.079 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.111 [java] [ERROR] src\test\java\LoginTests.java:2: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:32:21.112 [java] [ERROR] import org.junit.jupiter.api.AfterEach;
+21-08-2025 16:32:21.113 [java] [ERROR] ^
+21-08-2025 16:32:21.128 [java] [ERROR] src\test\java\LoginTests.java:3: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:32:21.129 [java] [ERROR] import org.junit.jupiter.api.BeforeEach;
+21-08-2025 16:32:21.130 [java] [ERROR] ^
+21-08-2025 16:32:21.136 [java] [ERROR] src\test\java\LoginTests.java:4: error: package org.junit.jupiter.api does not exist
+21-08-2025 16:32:21.136 [java] [ERROR] import org.junit.jupiter.api.Test;
+21-08-2025 16:32:21.136 [java] [ERROR] ^
+21-08-2025 16:32:21.144 [java] [ERROR] src\test\java\LoginTests.java:5: error: package org.openqa.selenium does not exist
+21-08-2025 16:32:21.145 [java] [ERROR] import org.openqa.selenium.By;
+21-08-2025 16:32:21.146 [java] [ERROR] ^
+21-08-2025 16:32:21.152 [java] [ERROR] src\test\java\LoginTests.java:6: error: package org.openqa.selenium does not exist
+21-08-2025 16:32:21.153 [java] [ERROR] import org.openqa.selenium.WebDriver;
+21-08-2025 16:32:21.153 [java] [ERROR] ^
+21-08-2025 16:32:21.161 [java] [ERROR] src\test\java\LoginTests.java:7: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:32:21.161 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+21-08-2025 16:32:21.161 [java] [ERROR] ^
+21-08-2025 16:32:21.167 [java] [ERROR] src\test\java\LoginTests.java:8: error: package org.openqa.selenium.chrome does not exist
+21-08-2025 16:32:21.167 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+21-08-2025 16:32:21.168 [java] [ERROR] ^
+21-08-2025 16:32:21.176 [java] [ERROR] src\test\java\LoginTests.java:12: error: cannot find symbol
+21-08-2025 16:32:21.177 [java] [ERROR] WebDriver driver;
+21-08-2025 16:32:21.177 [java] [ERROR] ^
+21-08-2025 16:32:21.177 [java] [ERROR] symbol:   class WebDriver
+21-08-2025 16:32:21.177 [java] [ERROR] location: class LoginTests
+21-08-2025 16:32:21.193 [java] [ERROR] src\test\java\LoginTests.java:13: error: cannot find symbol
+21-08-2025 16:32:21.193 [java] [ERROR] @BeforeEach
+21-08-2025 16:32:21.194 [java] [ERROR] ^
+21-08-2025 16:32:21.194 [java] [ERROR] symbol:   class BeforeEach
+21-08-2025 16:32:21.194 [java] [ERROR] location: class LoginTests
+21-08-2025 16:32:21.194 [java] [ERROR] src\test\java\LoginTests.java:25: error: cannot find symbol
+21-08-2025 16:32:21.194 [java] [ERROR] @AfterEach
+21-08-2025 16:32:21.194 [java] [ERROR] ^
+21-08-2025 16:32:21.195 [java] [ERROR] symbol:   class AfterEach
+21-08-2025 16:32:21.195 [java] [ERROR] location: class LoginTests
+21-08-2025 16:32:21.248 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 16:32:21.248 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 16:32:21.249 [java] [ERROR] ^
+21-08-2025 16:32:21.249 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:32:21.250 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.250 [java] [ERROR] src\main\java\HelperMethods.java:22: error: cannot find symbol
+21-08-2025 16:32:21.250 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+21-08-2025 16:32:21.250 [java] [ERROR] ^
+21-08-2025 16:32:21.250 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:32:21.251 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.280 [java] [ERROR] src\main\java\HelperMethods.java:23: error: cannot find symbol
+21-08-2025 16:32:21.280 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+21-08-2025 16:32:21.281 [java] [ERROR] ^
+21-08-2025 16:32:21.281 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 16:32:21.281 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.281 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 16:32:21.282 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 16:32:21.282 [java] [ERROR] ^
+21-08-2025 16:32:21.282 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:32:21.283 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.283 [java] [ERROR] src\main\java\HelperMethods.java:26: error: cannot find symbol
+21-08-2025 16:32:21.283 [java] [ERROR] WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+21-08-2025 16:32:21.288 [java] [ERROR] ^
+21-08-2025 16:32:21.289 [java] [ERROR] symbol:   class WebDriverWait
+21-08-2025 16:32:21.290 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.296 [java] [ERROR] src\main\java\HelperMethods.java:27: error: cannot find symbol
+21-08-2025 16:32:21.296 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(text);
+21-08-2025 16:32:21.296 [java] [ERROR] ^
+21-08-2025 16:32:21.296 [java] [ERROR] symbol:   variable ExpectedConditions
+21-08-2025 16:32:21.297 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.303 [java] [ERROR] src\main\java\HelperMethods.java:46: error: cannot find symbol
+21-08-2025 16:32:21.304 [java] [ERROR] WebElement productAmount =  driver.findElement(locator_Amount);
+21-08-2025 16:32:21.304 [java] [ERROR] ^
+21-08-2025 16:32:21.304 [java] [ERROR] symbol:   class WebElement
+21-08-2025 16:32:21.304 [java] [ERROR] location: class HelperMethods
+21-08-2025 16:32:21.306 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 16:32:21.306 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 16:32:21.306 [java] [ERROR] ^
+21-08-2025 16:32:21.306 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 16:32:21.306 [java] [ERROR] location: class LoginTests
+21-08-2025 16:32:21.307 [java] [ERROR] src\test\java\LoginTests.java:15: error: cannot find symbol
+21-08-2025 16:32:21.307 [java] [ERROR] ChromeOptions options = new ChromeOptions();
+21-08-2025 16:32:21.307 [java] [ERROR] ^
+21-08-2025 16:32:21.307 [java] [ERROR] symbol:   class ChromeOptions
+21-08-2025 16:32:21.307 [java] [ERROR] location: class LoginTests
+21-08-2025 16:32:21.309 [java] [ERROR] src\test\java\LoginTests.java:20: error: cannot find symbol
+21-08-2025 16:32:21.310 [java] [ERROR] driver = new ChromeDriver(options); // önce driver baþlat
+21-08-2025 16:32:21.310 [java] [ERROR] ^
+21-08-2025 16:32:21.310 [java] [ERROR] symbol:   class ChromeDriver
+21-08-2025 16:32:21.310 [java] [ERROR] location: class LoginTests
+21-08-2025 16:32:21.326 [java] [ERROR] 33 errors
+21-08-2025 16:32:21.403 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 16:32:21.403 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+21-08-2025 16:37:35.154 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 16:37:35.156 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 16:37:35.157 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 16:37:35.158 [Gauge] [DEBUG] Parsing started.
+21-08-2025 16:37:35.158 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 16:37:35.165 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 16:37:35.165 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 16:37:35.165 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 16:37:35.165 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 16:37:35.196 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 16:37:35.196 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 16:37:35.196 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 16:37:35.197 [java] [DEBUG] overwrite_reports: true
+21-08-2025 16:37:35.197 [java] [DEBUG] logs_directory: logs
+21-08-2025 16:37:35.197 [java] [DEBUG] enable_multithreading: false
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 16:37:35.197 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_java_home: 
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 16:37:35.197 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 16:37:35.197 [java] [DEBUG] ***** END *****
+21-08-2025 16:37:35.213 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-08-2025 16:37:35.213 [java] [ERROR] Installed version of gauge-java (0.12.0) does not match with dependency gauge-java () specified in pom.xml file
+21-08-2025 16:37:35.214 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-24!\java.base;C:\Program Files\Java\jdk-24!\java.compiler;C:\Program Files\Java\jdk-24!\java.datatransfer;C:\Program Files\Java\jdk-24!\java.desktop;C:\Program Files\Java\jdk-24!\java.instrument;C:\Program Files\Java\jdk-24!\java.logging;C:\Program Files\Java\jdk-24!\java.management;C:\Program Files\Java\jdk-24!\java.management.rmi;C:\Program Files\Java\jdk-24!\java.naming;C:\Program Files\Java\jdk-24!\java.net.http;C:\Program Files\Java\jdk-24!\java.prefs;C:\Program Files\Java\jdk-24!\java.rmi;C:\Program Files\Java\jdk-24!\java.scripting;C:\Program Files\Java\jdk-24!\java.se;C:\Program Files\Java\jdk-24!\java.security.jgss;C:\Program Files\Java\jdk-24!\java.security.sasl;C:\Program Files\Java\jdk-24!\java.smartcardio;C:\Program Files\Java\jdk-24!\java.sql;C:\Program Files\Java\jdk-24!\java.sql.rowset;C:\Program Files\Java\jdk-24!\java.transaction.xa;C:\Program Files\Java\jdk-24!\java.xml;C:\Program Files\Java\jdk-24!\java.xml.crypto;C:\Program Files\Java\jdk-24!\jdk.accessibility;C:\Program Files\Java\jdk-24!\jdk.attach;C:\Program Files\Java\jdk-24!\jdk.charsets;C:\Program Files\Java\jdk-24!\jdk.compiler;C:\Program Files\Java\jdk-24!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-24!\jdk.crypto.ec;C:\Program Files\Java\jdk-24!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-24!\jdk.dynalink;C:\Program Files\Java\jdk-24!\jdk.editpad;C:\Program Files\Java\jdk-24!\jdk.graal.compiler;C:\Program Files\Java\jdk-24!\jdk.graal.compiler.lib;C:\Program Files\Java\jdk-24!\jdk.graal.compiler.management;C:\Program Files\Java\jdk-24!\jdk.hotspot.agent;C:\Program Files\Java\jdk-24!\jdk.httpserver;C:\Program Files\Java\jdk-24!\jdk.incubator.vector;C:\Program Files\Java\jdk-24!\jdk.internal.ed;C:\Program Files\Java\jdk-24!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-24!\jdk.internal.le;C:\Program Files\Java\jdk-24!\jdk.internal.md;C:\Program Files\Java\jdk-24!\jdk.internal.opt;C:\Program Files\Java\jdk-24!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-24!\jdk.jartool;C:\Program Files\Java\jdk-24!\jdk.javadoc;C:\Program Files\Java\jdk-24!\jdk.jcmd;C:\Program Files\Java\jdk-24!\jdk.jconsole;C:\Program Files\Java\jdk-24!\jdk.jdeps;C:\Program Files\Java\jdk-24!\jdk.jdi;C:\Program Files\Java\jdk-24!\jdk.jdwp.agent;C:\Program Files\Java\jdk-24!\jdk.jfr;C:\Program Files\Java\jdk-24!\jdk.jlink;C:\Program Files\Java\jdk-24!\jdk.jpackage;C:\Program Files\Java\jdk-24!\jdk.jshell;C:\Program Files\Java\jdk-24!\jdk.jsobject;C:\Program Files\Java\jdk-24!\jdk.jstatd;C:\Program Files\Java\jdk-24!\jdk.localedata;C:\Program Files\Java\jdk-24!\jdk.management;C:\Program Files\Java\jdk-24!\jdk.management.agent;C:\Program Files\Java\jdk-24!\jdk.management.jfr;C:\Program Files\Java\jdk-24!\jdk.naming.dns;C:\Program Files\Java\jdk-24!\jdk.naming.rmi;C:\Program Files\Java\jdk-24!\jdk.net;C:\Program Files\Java\jdk-24!\jdk.nio.mapmode;C:\Program Files\Java\jdk-24!\jdk.sctp;C:\Program Files\Java\jdk-24!\jdk.security.auth;C:\Program Files\Java\jdk-24!\jdk.security.jgss;C:\Program Files\Java\jdk-24!\jdk.unsupported;C:\Program Files\Java\jdk-24!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-24!\jdk.xml.dom;C:\Program Files\Java\jdk-24!\jdk.zipfs;C:\Desktop\Test-Otomasyon\TestOtomasyon\target\test-classes;C:\Desktop\Test-Otomasyon\TestOtomasyon\target\classes;C:\Users\alper\.m2\repository\com\thoughtworks\gauge\gauge-java\0.12.0\gauge-java-0.12.0.jar;C:\Users\alper\.m2\repository\org\assertj\assertj-core\3.27.3\assertj-core-3.27.3.jar;C:\Users\alper\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\alper\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\alper\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\alper\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alper\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\alper\.m2\repository\com\github\javaparser\javaparser-core\3.26.4\javaparser-core-3.26.4.jar;C:\Users\alper\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\alper\.m2\repository\com\google\protobuf\protobuf-java\4.30.2\protobuf-java-4.30.2.jar;C:\Users\alper\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\alper\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-api\1.72.0\grpc-api-1.72.0.jar;C:\Users\alper\.m2\repository\com\google\errorprone\error_prone_annotations\2.30.0\error_prone_annotations-2.30.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-netty-shaded\1.72.0\grpc-netty-shaded-1.72.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-util\1.72.0\grpc-util-1.72.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-core\1.72.0\grpc-core-1.72.0.jar;C:\Users\alper\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\alper\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-context\1.72.0\grpc-context-1.72.0.jar;C:\Users\alper\.m2\repository\io\perfmark\perfmark-api\0.27.0\perfmark-api-0.27.0.jar;C:\Users\alper\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.24\animal-sniffer-annotations-1.24.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-protobuf\1.72.0\grpc-protobuf-1.72.0.jar;C:\Users\alper\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.51.0\proto-google-common-protos-2.51.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-protobuf-lite\1.72.0\grpc-protobuf-lite-1.72.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-stub\1.72.0\grpc-stub-1.72.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\alper\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\alper\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\alper\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\alper\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\alper\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alper\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\alper\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+21-08-2025 16:37:35.247 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk-24\bin\java.exe
+21-08-2025 16:37:35.248 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+21-08-2025 16:37:35.248 [java] [DEBUG] stdout/stderr is logged to logs\31036-java.exe.out
+21-08-2025 16:37:35.602 [java] [DEBUG] multithreading is set to false
+21-08-2025 16:37:36.430 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+21-08-2025 16:37:36.555 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+21-08-2025 16:37:36.555 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+21-08-2025 16:37:36.555 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+21-08-2025 16:37:36.693 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+21-08-2025 16:37:36.693 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4 (file:/C:/Users/alper/.m2/repository/io/grpc/grpc-netty-shaded/1.72.0/grpc-netty-shaded-1.72.0.jar)
+21-08-2025 16:37:36.693 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4
+21-08-2025 16:37:36.693 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+21-08-2025 16:37:38.397 [java] [DEBUG] gauge-java took 2794milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+21-08-2025 16:37:38.398 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2794
+21-08-2025 16:37:38.398 [java] [DEBUG] starting gRPC server...
+21-08-2025 16:37:38.674 [java] [DEBUG] started gRPC server on port 49238
+21-08-2025 16:37:38.675 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49238
+21-08-2025 16:37:38.675 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49238
+21-08-2025 16:37:38.675 [Gauge] [DEBUG] Validation started.
+21-08-2025 16:37:39.629 [java] [DEBUG] Scanning packages for steps
+21-08-2025 16:37:39.662 [java] [DEBUG] Comparing 'ExampleSteps.merhabaYazdir' and 'ExampleSteps.merhabaYazdir'
+21-08-2025 16:37:39.662 [java] [DEBUG] Found Merhaba yazdï¿½r in current project scope.
+21-08-2025 16:37:39.662 [java] [DEBUG] Scanning packages for hooks
+21-08-2025 16:37:39.678 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+21-08-2025 16:37:39.678 [java] [DEBUG] 	Merhaba yazdï¿½r : public void merhabaYazdir()
+21-08-2025 16:37:40.507 [Gauge] [DEBUG] Validation completed.
+21-08-2025 16:37:40.509 [Gauge] [DEBUG] Run started
+21-08-2025 16:37:40.512 [Gauge] [DEBUG] Starting Html Report plugin
+21-08-2025 16:37:40.937 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+21-08-2025 16:37:40.937 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49241
+21-08-2025 16:37:40.937 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49241
+21-08-2025 16:37:40.937 [Gauge] [DEBUG] Initialising suite data store.
+21-08-2025 16:37:41.041 [java] [DEBUG] Executing 'Merhaba yazdï¿½r' using 'class ExampleSteps.merhabaYazdir
+21-08-2025 16:37:41.046 [java] [INFO] Merhaba Gauge!
+21-08-2025 16:37:41.104 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-08-2025 16:37:42.839 [html-report] [INFO] Successfully generated html-report to => C:\Desktop\Test-Otomasyon\TestOtomasyon\reports\html-report\index.html
+21-08-2025 16:37:42.839 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-08-2025 16:37:42.839 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\alper\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+21-08-2025 16:37:42.843 [java] [DEBUG] Killing Java runner...
+21-08-2025 16:37:42.844 [java] [DEBUG] Stopping execution pool...
+21-08-2025 16:37:42.844 [java] [DEBUG] Shutting down grpc server...
+21-08-2025 16:37:42.853 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+21-08-2025 16:37:42.853 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+21-08-2025 16:37:42.853 [Gauge] [INFO] 
+Total time taken: 591ms
+21-08-2025 16:38:02.085 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Desktop\Test-Otomasyon\TestOtomasyon\.gauge\screenshots
+21-08-2025 16:38:02.087 [Gauge] [DEBUG] Plugin java is already installed.
+21-08-2025 16:38:02.087 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-08-2025 16:38:02.087 [Gauge] [DEBUG] Parsing started.
+21-08-2025 16:38:02.088 [Gauge] [DEBUG] Started concepts parsing.
+21-08-2025 16:38:02.092 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-08-2025 16:38:02.092 [Gauge] [DEBUG] Started specifications parsing.
+21-08-2025 16:38:02.093 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-08-2025 16:38:02.093 [Gauge] [DEBUG] Parsing completed.
+21-08-2025 16:38:02.121 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-08-2025 16:38:02.121 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Gauge\bin;C:\Users\alper\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alper\AppData\Local\Programs\Python\Python313\;C:\Users\alper\AppData\Local\Microsoft\WindowsApps;C:\Users\alper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alper\.dotnet\tools;C:\Users\alper\Desktop\php;C:\Users\alper\AppData\Local\Programs\cursor\resources\app\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;;C:\Users\alper\AppData\Roaming\gauge\plugins\screenshot\0.3.2
+21-08-2025 16:38:02.121 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk-24
+21-08-2025 16:38:02.121 [java] [DEBUG] gauge_project_root: C:\Desktop\Test-Otomasyon\TestOtomasyon
+21-08-2025 16:38:02.121 [java] [DEBUG] gauge_parallel_streams_count: 12
+21-08-2025 16:38:02.121 [java] [DEBUG] gauge_reports_dir: reports
+21-08-2025 16:38:02.121 [java] [DEBUG] overwrite_reports: true
+21-08-2025 16:38:02.121 [java] [DEBUG] logs_directory: logs
+21-08-2025 16:38:02.122 [java] [DEBUG] enable_multithreading: false
+21-08-2025 16:38:02.122 [java] [DEBUG] gauge_specs_dir: specs
+21-08-2025 16:38:02.122 [java] [DEBUG] csv_delimiter: ,
+21-08-2025 16:38:02.122 [java] [DEBUG] gauge_java_home: 
+21-08-2025 16:38:02.122 [java] [DEBUG] gauge_custom_build_path: 
+21-08-2025 16:38:02.122 [java] [DEBUG] gauge_additional_libs: libs/*
+21-08-2025 16:38:02.122 [java] [DEBUG] gauge_jvm_args: 
+21-08-2025 16:38:02.122 [java] [DEBUG] gauge_custom_compile_dir: 
+21-08-2025 16:38:02.122 [java] [DEBUG] gauge_clear_state_level: scenario
+21-08-2025 16:38:02.122 [java] [DEBUG] ***** END *****
+21-08-2025 16:38:02.137 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-08-2025 16:38:02.137 [java] [ERROR] Installed version of gauge-java (0.12.0) does not match with dependency gauge-java () specified in pom.xml file
+21-08-2025 16:38:02.137 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-24!\java.base;C:\Program Files\Java\jdk-24!\java.compiler;C:\Program Files\Java\jdk-24!\java.datatransfer;C:\Program Files\Java\jdk-24!\java.desktop;C:\Program Files\Java\jdk-24!\java.instrument;C:\Program Files\Java\jdk-24!\java.logging;C:\Program Files\Java\jdk-24!\java.management;C:\Program Files\Java\jdk-24!\java.management.rmi;C:\Program Files\Java\jdk-24!\java.naming;C:\Program Files\Java\jdk-24!\java.net.http;C:\Program Files\Java\jdk-24!\java.prefs;C:\Program Files\Java\jdk-24!\java.rmi;C:\Program Files\Java\jdk-24!\java.scripting;C:\Program Files\Java\jdk-24!\java.se;C:\Program Files\Java\jdk-24!\java.security.jgss;C:\Program Files\Java\jdk-24!\java.security.sasl;C:\Program Files\Java\jdk-24!\java.smartcardio;C:\Program Files\Java\jdk-24!\java.sql;C:\Program Files\Java\jdk-24!\java.sql.rowset;C:\Program Files\Java\jdk-24!\java.transaction.xa;C:\Program Files\Java\jdk-24!\java.xml;C:\Program Files\Java\jdk-24!\java.xml.crypto;C:\Program Files\Java\jdk-24!\jdk.accessibility;C:\Program Files\Java\jdk-24!\jdk.attach;C:\Program Files\Java\jdk-24!\jdk.charsets;C:\Program Files\Java\jdk-24!\jdk.compiler;C:\Program Files\Java\jdk-24!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-24!\jdk.crypto.ec;C:\Program Files\Java\jdk-24!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-24!\jdk.dynalink;C:\Program Files\Java\jdk-24!\jdk.editpad;C:\Program Files\Java\jdk-24!\jdk.graal.compiler;C:\Program Files\Java\jdk-24!\jdk.graal.compiler.lib;C:\Program Files\Java\jdk-24!\jdk.graal.compiler.management;C:\Program Files\Java\jdk-24!\jdk.hotspot.agent;C:\Program Files\Java\jdk-24!\jdk.httpserver;C:\Program Files\Java\jdk-24!\jdk.incubator.vector;C:\Program Files\Java\jdk-24!\jdk.internal.ed;C:\Program Files\Java\jdk-24!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-24!\jdk.internal.le;C:\Program Files\Java\jdk-24!\jdk.internal.md;C:\Program Files\Java\jdk-24!\jdk.internal.opt;C:\Program Files\Java\jdk-24!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-24!\jdk.jartool;C:\Program Files\Java\jdk-24!\jdk.javadoc;C:\Program Files\Java\jdk-24!\jdk.jcmd;C:\Program Files\Java\jdk-24!\jdk.jconsole;C:\Program Files\Java\jdk-24!\jdk.jdeps;C:\Program Files\Java\jdk-24!\jdk.jdi;C:\Program Files\Java\jdk-24!\jdk.jdwp.agent;C:\Program Files\Java\jdk-24!\jdk.jfr;C:\Program Files\Java\jdk-24!\jdk.jlink;C:\Program Files\Java\jdk-24!\jdk.jpackage;C:\Program Files\Java\jdk-24!\jdk.jshell;C:\Program Files\Java\jdk-24!\jdk.jsobject;C:\Program Files\Java\jdk-24!\jdk.jstatd;C:\Program Files\Java\jdk-24!\jdk.localedata;C:\Program Files\Java\jdk-24!\jdk.management;C:\Program Files\Java\jdk-24!\jdk.management.agent;C:\Program Files\Java\jdk-24!\jdk.management.jfr;C:\Program Files\Java\jdk-24!\jdk.naming.dns;C:\Program Files\Java\jdk-24!\jdk.naming.rmi;C:\Program Files\Java\jdk-24!\jdk.net;C:\Program Files\Java\jdk-24!\jdk.nio.mapmode;C:\Program Files\Java\jdk-24!\jdk.sctp;C:\Program Files\Java\jdk-24!\jdk.security.auth;C:\Program Files\Java\jdk-24!\jdk.security.jgss;C:\Program Files\Java\jdk-24!\jdk.unsupported;C:\Program Files\Java\jdk-24!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-24!\jdk.xml.dom;C:\Program Files\Java\jdk-24!\jdk.zipfs;C:\Desktop\Test-Otomasyon\TestOtomasyon\target\test-classes;C:\Desktop\Test-Otomasyon\TestOtomasyon\target\classes;C:\Users\alper\.m2\repository\com\thoughtworks\gauge\gauge-java\0.12.0\gauge-java-0.12.0.jar;C:\Users\alper\.m2\repository\org\assertj\assertj-core\3.27.3\assertj-core-3.27.3.jar;C:\Users\alper\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\alper\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\alper\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\alper\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alper\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\alper\.m2\repository\com\github\javaparser\javaparser-core\3.26.4\javaparser-core-3.26.4.jar;C:\Users\alper\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\alper\.m2\repository\com\google\protobuf\protobuf-java\4.30.2\protobuf-java-4.30.2.jar;C:\Users\alper\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\alper\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-api\1.72.0\grpc-api-1.72.0.jar;C:\Users\alper\.m2\repository\com\google\errorprone\error_prone_annotations\2.30.0\error_prone_annotations-2.30.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-netty-shaded\1.72.0\grpc-netty-shaded-1.72.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-util\1.72.0\grpc-util-1.72.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-core\1.72.0\grpc-core-1.72.0.jar;C:\Users\alper\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\alper\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-context\1.72.0\grpc-context-1.72.0.jar;C:\Users\alper\.m2\repository\io\perfmark\perfmark-api\0.27.0\perfmark-api-0.27.0.jar;C:\Users\alper\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.24\animal-sniffer-annotations-1.24.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-protobuf\1.72.0\grpc-protobuf-1.72.0.jar;C:\Users\alper\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.51.0\proto-google-common-protos-2.51.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-protobuf-lite\1.72.0\grpc-protobuf-lite-1.72.0.jar;C:\Users\alper\.m2\repository\io\grpc\grpc-stub\1.72.0\grpc-stub-1.72.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\alper\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\alper\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\alper\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\alper\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\alper\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\alper\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\alper\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alper\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\alper\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+21-08-2025 16:38:02.165 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk-24\bin\java.exe
+21-08-2025 16:38:02.165 [java] [DEBUG] running - C:\Program Files\Java\jdk-24\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+21-08-2025 16:38:02.165 [java] [DEBUG] stdout/stderr is logged to logs\14752-java.exe.out
+21-08-2025 16:38:02.416 [java] [DEBUG] multithreading is set to false
+21-08-2025 16:38:03.072 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+21-08-2025 16:38:03.177 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+21-08-2025 16:38:03.177 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+21-08-2025 16:38:03.177 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+21-08-2025 16:38:03.368 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+21-08-2025 16:38:03.369 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4 (file:/C:/Users/alper/.m2/repository/io/grpc/grpc-netty-shaded/1.72.0/grpc-netty-shaded-1.72.0.jar)
+21-08-2025 16:38:03.369 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4
+21-08-2025 16:38:03.369 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+21-08-2025 16:38:04.644 [java] [DEBUG] gauge-java took 2225milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+21-08-2025 16:38:04.644 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2225
+21-08-2025 16:38:04.644 [java] [DEBUG] starting gRPC server...
+21-08-2025 16:38:04.893 [java] [DEBUG] started gRPC server on port 49246
+21-08-2025 16:38:04.893 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49246
+21-08-2025 16:38:04.894 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49246
+21-08-2025 16:38:04.894 [Gauge] [DEBUG] Validation started.
+21-08-2025 16:38:05.700 [java] [DEBUG] Scanning packages for steps
+21-08-2025 16:38:05.719 [java] [DEBUG] Comparing 'ExampleSteps.merhabaYazdir' and 'ExampleSteps.merhabaYazdir'
+21-08-2025 16:38:05.719 [java] [DEBUG] Found Merhaba yazdï¿½r in current project scope.
+21-08-2025 16:38:05.719 [java] [DEBUG] Scanning packages for hooks
+21-08-2025 16:38:05.727 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+21-08-2025 16:38:05.728 [java] [DEBUG] 	Merhaba yazdï¿½r : public void merhabaYazdir()
+21-08-2025 16:38:06.658 [Gauge] [DEBUG] Validation completed.
+21-08-2025 16:38:06.658 [Gauge] [DEBUG] Run started
+21-08-2025 16:38:06.660 [Gauge] [DEBUG] Starting Html Report plugin
+21-08-2025 16:38:06.690 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+21-08-2025 16:38:06.690 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49249
+21-08-2025 16:38:06.690 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49249
+21-08-2025 16:38:06.690 [Gauge] [DEBUG] Initialising suite data store.
+21-08-2025 16:38:06.807 [java] [DEBUG] Executing 'Merhaba yazdï¿½r' using 'class ExampleSteps.merhabaYazdir
+21-08-2025 16:38:06.817 [java] [INFO] Merhaba Gauge!
+21-08-2025 16:38:06.865 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-08-2025 16:38:06.882 [html-report] [INFO] Successfully generated html-report to => C:\Desktop\Test-Otomasyon\TestOtomasyon\reports\html-report\index.html
+21-08-2025 16:38:06.882 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\alper\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+21-08-2025 16:38:06.884 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-08-2025 16:38:06.896 [java] [DEBUG] Killing Java runner...
+21-08-2025 16:38:06.896 [java] [DEBUG] Stopping execution pool...
+21-08-2025 16:38:06.896 [java] [DEBUG] Shutting down grpc server...
+21-08-2025 16:38:06.902 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+21-08-2025 16:38:06.902 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+21-08-2025 16:38:06.902 [Gauge] [INFO] 
+Total time taken: 205ms

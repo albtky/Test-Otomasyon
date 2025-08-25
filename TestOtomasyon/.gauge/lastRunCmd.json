@@ -1,0 +1,8 @@
+[
+	"C:\\Users\\alper\\AppData\\Roaming\\npm\\\\node_modules\\@getgauge\\cli\\bin\\gauge",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Desktop/Test-Otomasyon/TestOtomasyon/specs/example.spec:3"
+]
