@@ -26,6 +26,13 @@ public class Waits  {
                 .ignoring(NoSuchElementException.class)
                 .ignoring(StaleElementReferenceException.class);
     }
+
+    public static void humanPause(Duration duration) {
+        new FluentWait<>(DriverManager.get())
+                .withTimeout(duration)
+                .pollingEvery(Duration.ofMillis(POLL_MS))
+                .until(driver -> true);
+    }
     // Element bulana kadar bekle
     public static WebElement untilPresent(By locator){
         return fluentWait().until(driver ->  driver.findElement(locator));
@@ -55,6 +62,9 @@ public class Waits  {
     public static boolean untilTiteContains(String text){
         return fluentWait().until(driver ->driver.getTitle().contains(text));
     }
+    // --- YENİ: İnsan benzeri davranış yardımcıları ---
+
+
     // Custom koşul
     public static <T> T until(Function<WebDriver, T> condition) {
         return fluentWait().until(condition);

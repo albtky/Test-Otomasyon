@@ -1,0 +1,14 @@
+[
+  {
+    "key": "search_product",
+    "value": "//input[@value='']",
+    "type": "xpath"
+  },
+  {
+    "key": "login_button_in_menu",
+    "value": "login",
+    "type": "id"
+  }
+]
+
+

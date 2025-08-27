@@ -37,3 +37,349 @@
 25-08-2025 13:05:17.610 [Gauge] [DEBUG] Found 1 files
 25-08-2025 13:05:23.172 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Merhaba yazdır"}
 25-08-2025 13:05:23.173 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"}}
+25-08-2025 14:53:01.289 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 14:53:01.311 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 14:53:01.728 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 14:53:01.729 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 14:53:01.732 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 14:53:01.732 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 14:53:01.746 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 14:53:01.746 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 14:53:01.746 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 14:53:01.747 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 14:53:01.757 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 14:53:01.757 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 14:53:01.758 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 14:53:01.758 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 14:53:01.887 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı> ve <sifre> ile girşi yapar"}
+25-08-2025 14:53:01.888 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} ve {} ile girşi yapar" parameterizedStepValue:"<kullanıcı adı> ve <sifre> ile girşi yapar" parameters:"kullanıcı adı" parameters:"sifre"}}
+25-08-2025 14:53:02.036 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 14:53:02.048 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 14:53:06.097 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 14:53:06.112 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 14:53:10.239 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı> ve <sifre> ile girş yapar"}
+25-08-2025 14:53:10.240 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} ve {} ile girş yapar" parameterizedStepValue:"<kullanıcı adı> ve <sifre> ile girş yapar" parameters:"kullanıcı adı" parameters:"sifre"}}
+25-08-2025 14:53:10.335 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı> ve <sifre> ile gir yapar"}
+25-08-2025 14:53:10.335 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} ve {} ile gir yapar" parameterizedStepValue:"<kullanıcı adı> ve <sifre> ile gir yapar" parameters:"kullanıcı adı" parameters:"sifre"}}
+25-08-2025 14:53:10.873 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı> ve <sifre> ile giriş yapar"}
+25-08-2025 14:53:10.873 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} ve {} ile giriş yapar" parameterizedStepValue:"<kullanıcı adı> ve <sifre> ile giriş yapar" parameters:"kullanıcı adı" parameters:"sifre"}}
+25-08-2025 14:53:10.891 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 14:53:10.893 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"{} ve {} ile girşi yapar" parameterizedStepValue:"<kullanıcı adı> ve <sifre> ile girşi yapar" parameters:"kullanıcı adı" parameters:"sifre"} allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"}}
+25-08-2025 14:53:10.896 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 14:53:10.896 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 14:53:10.900 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 14:53:10.900 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"{} ve {} ile girşi yapar" parameterizedStepValue:"<kullanıcı adı> ve <sifre> ile girşi yapar" parameters:"kullanıcı adı" parameters:"sifre"}}
+25-08-2025 14:53:10.900 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 14:53:10.900 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 14:54:49.566 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 14:54:49.582 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:13:55.973 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı> ve sifre ile giriş yapar"}
+25-08-2025 15:13:55.973 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} ve sifre ile giriş yapar" parameterizedStepValue:"<kullanıcı adı> ve sifre ile giriş yapar" parameters:"kullanıcı adı"}}
+25-08-2025 15:13:56.611 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı ve sifre ile giriş yapar"}
+25-08-2025 15:13:56.612 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"Dynamic parameter not terminated"}
+25-08-2025 15:13:57.026 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcıadı ve sifre ile giriş yapar"}
+25-08-2025 15:13:57.026 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"Dynamic parameter not terminated"}
+25-08-2025 15:13:57.035 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcıadı ve sifre ile giriş yapar"}
+25-08-2025 15:13:57.038 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"Dynamic parameter not terminated"}
+25-08-2025 15:13:57.470 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı ve sifre ile giriş yapar"}
+25-08-2025 15:13:57.471 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"Dynamic parameter not terminated"}
+25-08-2025 15:13:59.528 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"kullanıcı adı ve sifre ile giriş yapar"}
+25-08-2025 15:13:59.528 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:05.106 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<kullanıcı adı> ve"}
+25-08-2025 15:16:05.106 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} ve" parameterizedStepValue:"<kullanıcı adı> ve" parameters:"kullanıcı adı"}}
+25-08-2025 15:16:06.614 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:06.614 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:07.603 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:16:07.628 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:16:22.515 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:16:22.526 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:16:22.912 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:22.912 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:22.917 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:22.917 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:22.934 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:22.934 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:22.935 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:22.935 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:22.962 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:22.962 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:22.963 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:22.963 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:23.098 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:23.098 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:23.103 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:23.103 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:23.113 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:23.113 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:23.114 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:23.114 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:23.403 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:23.404 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:23.552 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:23.552 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:23.558 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"G"}
+25-08-2025 15:16:23.558 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"G" parameterizedStepValue:"G"}}
+25-08-2025 15:16:23.572 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:23.572 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:23.573 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:23.573 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:23.676 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Gi"}
+25-08-2025 15:16:23.677 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Gi" parameterizedStepValue:"Gi"}}
+25-08-2025 15:16:23.707 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Gir"}
+25-08-2025 15:16:23.707 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Gir" parameterizedStepValue:"Gir"}}
+25-08-2025 15:16:23.830 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Giriş"}
+25-08-2025 15:16:23.830 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Giriş" parameterizedStepValue:"Giriş"}}
+25-08-2025 15:16:25.223 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:25.223 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:25.226 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:25.226 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:25.245 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:25.245 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:25.246 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:25.246 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:25.527 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:25.528 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:26.101 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+25-08-2025 15:16:26.101 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+25-08-2025 15:16:26.105 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"B"}
+25-08-2025 15:16:26.105 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"B" parameterizedStepValue:"B"}}
+25-08-2025 15:16:26.129 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:26.129 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:26.130 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:26.130 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:26.446 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ba"}
+25-08-2025 15:16:26.446 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ba" parameterizedStepValue:"Ba"}}
+25-08-2025 15:16:26.559 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Baş"}
+25-08-2025 15:16:26.559 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Baş" parameterizedStepValue:"Baş"}}
+25-08-2025 15:16:26.639 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başa"}
+25-08-2025 15:16:26.640 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başa" parameterizedStepValue:"Başa"}}
+25-08-2025 15:16:26.720 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başar"}
+25-08-2025 15:16:26.720 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başar" parameterizedStepValue:"Başar"}}
+25-08-2025 15:16:26.826 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarı"}
+25-08-2025 15:16:26.826 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarı" parameterizedStepValue:"Başarı"}}
+25-08-2025 15:16:26.863 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarıl"}
+25-08-2025 15:16:26.863 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarıl" parameterizedStepValue:"Başarıl"}}
+25-08-2025 15:16:26.974 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı"}
+25-08-2025 15:16:26.974 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı" parameterizedStepValue:"Başarılı"}}
+25-08-2025 15:16:27.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı G"}
+25-08-2025 15:16:27.395 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı G" parameterizedStepValue:"Başarılı G"}}
+25-08-2025 15:16:27.403 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:27.403 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:27.404 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:27.404 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:27.406 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:27.406 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:27.407 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:27.407 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:27.512 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Gi"}
+25-08-2025 15:16:27.512 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Gi" parameterizedStepValue:"Başarılı Gi"}}
+25-08-2025 15:16:27.566 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Gir"}
+25-08-2025 15:16:27.566 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Gir" parameterizedStepValue:"Başarılı Gir"}}
+25-08-2025 15:16:27.667 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Giri"}
+25-08-2025 15:16:27.667 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Giri" parameterizedStepValue:"Başarılı Giri"}}
+25-08-2025 15:16:27.685 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Giriş"}
+25-08-2025 15:16:27.685 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Giriş" parameterizedStepValue:"Başarılı Giriş"}}
+25-08-2025 15:16:28.192 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Giriş m"}
+25-08-2025 15:16:28.192 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Giriş m" parameterizedStepValue:"Başarılı Giriş m"}}
+25-08-2025 15:16:28.200 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:28.200 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:28.201 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:28.201 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:28.204 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:28.204 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:28.205 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:28.205 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:28.228 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Giriş me"}
+25-08-2025 15:16:28.228 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Giriş me" parameterizedStepValue:"Başarılı Giriş me"}}
+25-08-2025 15:16:28.364 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Giriş mes"}
+25-08-2025 15:16:28.364 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Giriş mes" parameterizedStepValue:"Başarılı Giriş mes"}}
+25-08-2025 15:16:28.449 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı Giriş mesa"}
+25-08-2025 15:16:28.449 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı Giriş mesa" parameterizedStepValue:"Başarılı Giriş mesa"}}
+25-08-2025 15:16:29.561 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı g"}
+25-08-2025 15:16:29.562 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı g" parameterizedStepValue:"Başarılı g"}}
+25-08-2025 15:16:29.572 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:29.572 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:29.573 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:29.574 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:29.576 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:29.576 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:29.577 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:29.577 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:29.588 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı gi"}
+25-08-2025 15:16:29.588 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı gi" parameterizedStepValue:"Başarılı gi"}}
+25-08-2025 15:16:29.594 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:29.595 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:29.595 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:29.595 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:29.596 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:29.596 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:29.597 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:29.597 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:29.726 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı gir"}
+25-08-2025 15:16:29.726 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı gir" parameterizedStepValue:"Başarılı gir"}}
+25-08-2025 15:16:29.771 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı girşi"}
+25-08-2025 15:16:29.771 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı girşi" parameterizedStepValue:"Başarılı girşi"}}
+25-08-2025 15:16:29.966 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı girşi m"}
+25-08-2025 15:16:29.966 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı girşi m" parameterizedStepValue:"Başarılı girşi m"}}
+25-08-2025 15:16:29.976 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:29.976 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:29.979 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:29.979 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:29.981 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:29.981 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:29.982 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:29.982 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:30.023 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı girşi me"}
+25-08-2025 15:16:30.024 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı girşi me" parameterizedStepValue:"Başarılı girşi me"}}
+25-08-2025 15:16:30.160 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı girşi mes"}
+25-08-2025 15:16:30.160 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı girşi mes" parameterizedStepValue:"Başarılı girşi mes"}}
+25-08-2025 15:16:30.236 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı girşi mesa"}
+25-08-2025 15:16:30.236 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı girşi mesa" parameterizedStepValue:"Başarılı girşi mesa"}}
+25-08-2025 15:16:31.392 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:31.392 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:31.394 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:31.394 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:31.396 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:31.396 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:31.397 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:31.397 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:31.594 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı gii"}
+25-08-2025 15:16:31.594 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı gii" parameterizedStepValue:"Başarılı gii"}}
+25-08-2025 15:16:31.605 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giiş"}
+25-08-2025 15:16:31.605 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giiş" parameterizedStepValue:"Başarılı giiş"}}
+25-08-2025 15:16:32.376 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:32.376 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:32.377 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:32.378 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:32.379 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:32.379 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"} allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"}}
+25-08-2025 15:16:32.380 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:32.380 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:32.408 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giri"}
+25-08-2025 15:16:32.408 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giri" parameterizedStepValue:"Başarılı giri"}}
+25-08-2025 15:16:32.504 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş"}
+25-08-2025 15:16:32.504 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş" parameterizedStepValue:"Başarılı giriş"}}
+25-08-2025 15:16:32.786 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş m"}
+25-08-2025 15:16:32.787 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş m" parameterizedStepValue:"Başarılı giriş m"}}
+25-08-2025 15:16:32.797 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:32.797 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:32.798 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:32.798 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:32.800 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:32.801 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:32.814 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:32.814 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:32.856 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş me"}
+25-08-2025 15:16:32.856 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş me" parameterizedStepValue:"Başarılı giriş me"}}
+25-08-2025 15:16:32.988 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mes"}
+25-08-2025 15:16:32.989 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mes" parameterizedStepValue:"Başarılı giriş mes"}}
+25-08-2025 15:16:33.038 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesa"}
+25-08-2025 15:16:33.038 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesa" parameterizedStepValue:"Başarılı giriş mesa"}}
+25-08-2025 15:16:33.196 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesaj"}
+25-08-2025 15:16:33.196 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesaj" parameterizedStepValue:"Başarılı giriş mesaj"}}
+25-08-2025 15:16:33.233 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı"}
+25-08-2025 15:16:33.233 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı" parameterizedStepValue:"Başarılı giriş mesajı"}}
+25-08-2025 15:16:33.883 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:33.883 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"} allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"}}
+25-08-2025 15:16:33.883 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:33.883 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:33.886 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:33.886 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:33.887 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:33.887 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:34.134 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı k"}
+25-08-2025 15:16:34.135 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı k" parameterizedStepValue:"Başarılı giriş mesajı k"}}
+25-08-2025 15:16:34.149 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:34.149 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:34.151 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:34.151 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:34.153 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+25-08-2025 15:16:34.153 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Merhaba yazdır" parameterizedStepValue:"Merhaba yazdır"} allSteps:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+25-08-2025 15:16:34.154 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+25-08-2025 15:16:34.154 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+25-08-2025 15:16:34.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı ko"}
+25-08-2025 15:16:34.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı ko" parameterizedStepValue:"Başarılı giriş mesajı ko"}}
+25-08-2025 15:16:34.280 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kon"}
+25-08-2025 15:16:34.281 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kon" parameterizedStepValue:"Başarılı giriş mesajı kon"}}
+25-08-2025 15:16:34.376 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kont"}
+25-08-2025 15:16:34.376 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kont" parameterizedStepValue:"Başarılı giriş mesajı kont"}}
+25-08-2025 15:16:34.504 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontr"}
+25-08-2025 15:16:34.504 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontr" parameterizedStepValue:"Başarılı giriş mesajı kontr"}}
+25-08-2025 15:16:34.541 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontro"}
+25-08-2025 15:16:34.541 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontro" parameterizedStepValue:"Başarılı giriş mesajı kontro"}}
+25-08-2025 15:16:34.661 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrol"}
+25-08-2025 15:16:34.661 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrol" parameterizedStepValue:"Başarılı giriş mesajı kontrol"}}
+25-08-2025 15:16:36.048 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü"}
+25-08-2025 15:16:36.048 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü" parameterizedStepValue:"Başarılı giriş mesajı kontrolü"}}
+25-08-2025 15:16:56.454 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:16:56.471 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:19:51.490 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ("}
+25-08-2025 15:19:51.490 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü (" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ("}}
+25-08-2025 15:19:51.903 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İ"}
+25-08-2025 15:19:51.904 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İ" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İ"}}
+25-08-2025 15:19:52.014 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İs"}
+25-08-2025 15:19:52.014 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İs" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İs"}}
+25-08-2025 15:19:52.065 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsi"}
+25-08-2025 15:19:52.065 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsi" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsi"}}
+25-08-2025 15:19:52.137 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim"}
+25-08-2025 15:19:52.137 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim"}}
+25-08-2025 15:19:52.782 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim i"}
+25-08-2025 15:19:52.783 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim i" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim i"}}
+25-08-2025 15:19:52.823 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim il"}
+25-08-2025 15:19:52.823 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim il" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim il"}}
+25-08-2025 15:19:52.896 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile"}
+25-08-2025 15:19:52.896 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile"}}
+25-08-2025 15:19:53.716 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile K"}
+25-08-2025 15:19:53.716 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile K" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile K"}}
+25-08-2025 15:19:53.762 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Ko"}
+25-08-2025 15:19:53.763 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Ko" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Ko"}}
+25-08-2025 15:19:53.849 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kon"}
+25-08-2025 15:19:53.849 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kon" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kon"}}
+25-08-2025 15:19:53.892 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kont"}
+25-08-2025 15:19:53.892 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kont" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kont"}}
+25-08-2025 15:19:54.045 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kontr"}
+25-08-2025 15:19:54.046 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontr" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontr"}}
+25-08-2025 15:19:54.099 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kontro"}
+25-08-2025 15:19:54.100 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontro" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontro"}}
+25-08-2025 15:19:54.754 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol"}
+25-08-2025 15:19:54.754 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol"}}
+25-08-2025 15:19:54.994 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )"}
+25-08-2025 15:19:54.994 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )"}}
+25-08-2025 15:20:01.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol ) "}
+25-08-2025 15:20:01.107 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )"}}
+25-08-2025 15:20:21.897 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 15:20:21.910 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 16:01:48.207 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Giriş "}
+25-08-2025 16:01:48.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Giriş" parameterizedStepValue:"Giriş"}}
+25-08-2025 16:01:51.487 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Giriş ekranına doğru gir"}
+25-08-2025 16:01:51.490 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Giriş ekranına doğru gir" parameterizedStepValue:"Giriş ekranına doğru gir"}}
+25-08-2025 16:01:52.346 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Giriş ekranına doğru git"}
+25-08-2025 16:01:52.355 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Giriş ekranına doğru git" parameterizedStepValue:"Giriş ekranına doğru git"}}
+25-08-2025 16:01:59.129 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 16:01:59.141 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 16:05:25.532 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 16:05:25.540 [Gauge] [DEBUG] Spec file added / modified: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+25-08-2025 19:32:37.928 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 32372 has terminated.
+27-08-2025 10:47:57.450 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+27-08-2025 10:47:57.454 [Gauge] [INFO] Initializing specs cache with 1 specs
+27-08-2025 10:47:57.454 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+27-08-2025 10:47:57.454 [Gauge] [INFO] Initializing steps cache with 1 steps
+27-08-2025 10:47:57.455 [Gauge] [INFO] Gauge daemon initialized and listening on port: 6564
+27-08-2025 10:47:57.455 [Gauge] [DEBUG] Watching directory: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs
+27-08-2025 10:47:57.456 [Gauge] [DEBUG] Found 1 files
+27-08-2025 10:48:03.574 [Gauge] [INFO] Closing connection [127.0.0.1:6581] cause: EOF
+27-08-2025 10:48:21.816 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+27-08-2025 10:48:21.817 [Gauge] [INFO] Initializing specs cache with 1 specs
+27-08-2025 10:48:21.817 [Gauge] [DEBUG] Adding specs from C:\Desktop\Test-Otomasyon\TestOtomasyon\specs\example.spec
+27-08-2025 10:48:21.817 [Gauge] [INFO] Initializing steps cache with 1 steps
+27-08-2025 10:48:21.817 [Gauge] [INFO] Gauge daemon initialized and listening on port: 6613
+27-08-2025 10:48:21.818 [Gauge] [DEBUG] Watching directory: C:\Desktop\Test-Otomasyon\TestOtomasyon\specs
+27-08-2025 10:48:21.818 [Gauge] [DEBUG] Found 1 files
+27-08-2025 10:48:27.069 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )"}
+27-08-2025 10:48:27.069 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )" parameterizedStepValue:"Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )"}}
+27-08-2025 10:48:27.102 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Giriş ekranına doğru git"}
+27-08-2025 10:48:27.102 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Giriş ekranına doğru git" parameterizedStepValue:"Giriş ekranına doğru git"}}
+27-08-2025 10:48:27.136 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"kullanıcı adı ve sifre ile giriş yapar"}
+27-08-2025 10:48:27.136 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}
+27-08-2025 10:48:27.136 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"kullanıcı adı ve sifre ile giriş yapar"}
+27-08-2025 10:48:27.136 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"kullanıcı adı ve sifre ile giriş yapar" parameterizedStepValue:"kullanıcı adı ve sifre ile giriş yapar"}}

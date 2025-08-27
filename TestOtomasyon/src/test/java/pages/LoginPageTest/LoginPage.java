@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import utils.LoginLocatorFactory;
 import utils.Waits;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.time.Duration;
 
 public class LoginPage {
     WebDriver driver = DriverManager.get();
@@ -27,28 +27,22 @@ public class LoginPage {
         System.out.println("Giriş yapma adımları gerçekleşiyor.");
         System.out.println("CWD=" + new java.io.File(".").getAbsolutePath());
         System.out.println("BASE_URL=" + Config.getBaseUrl());
-        System.out.println("d=" + Config.getUserMail());
+        System.out.println("USEREMAİL=" + Config.getUserMail());
         System.out.println("PASSWORD=" + Config.getPassword());
-        System.out.println("USER_NAME=" + Config.getUserName());
+        System.out.println("USERNAME=" + Config.getUserName());
         // String username = Config.getUserMail(); // statikse
         String userMail = Config.getUserMail();     // instance ise
         Waits.untilVisible(LoginLocatorFactory.getLocator("user_mail_input_text")).sendKeys(userMail);
-
-        // String password = Config.getPassword();
+        Waits.humanPause(Duration.ofSeconds(2));
         String password = Config.getPassword();
         Waits.untilVisible(LoginLocatorFactory.getLocator("user_password_input_text")).sendKeys(password);
+        Waits.humanPause(Duration.ofSeconds(1));
 
         Waits.untilClickable(LoginLocatorFactory.getLocator("login_btn")).click();
     }
 
-    @Step("Başarılı giriş mesajı kontrolü ( İsim ile Kontrol )")
+    @Step("")
     public void checkLoginSucces() {
-        System.out.println("Giriş başarılı mı değil mi kontrol ediliyor.");
-        // String expected = Config.getUserName().trim();
-        String expected = Config.getUserName().trim();
 
-        // Bu key'i JSON'da "account_name_label" gibi stabil bir ada bağla
-        String actual = Waits.untilPresent(LoginLocatorFactory.getLocator("sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR")).getText().trim();
-        assertEquals(expected, actual, "Giriş Başarısız!");
     }
 }

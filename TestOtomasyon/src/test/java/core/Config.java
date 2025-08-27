@@ -10,7 +10,7 @@ public class Config {
         return dotenv.get("BASE_URL");
     }
     public static String getUserName(){
-        return dotenv.get("USERNAME");
+        return dotenv.get("USER_NAME");
     }
     public static String getPassword(){
         return dotenv.get("PASSWORD");
@@ -19,6 +19,6 @@ public class Config {
         return dotenv.get("BROWSER_NAME");
     }
     public static String getUserMail(){
-        return dotenv.get("USEREMAIL");
+        return dotenv.get("USER_MAIL");
     }
 }
